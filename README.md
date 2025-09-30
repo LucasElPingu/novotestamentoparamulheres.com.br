@@ -49,26 +49,12 @@ pnpm build && pnpm start # produção
 ```
 
 ## SEO, Favicon e Social
-- Metadados configurados em `src/app/layout.tsx` (title, description, keywords, canonical)
-- Open Graph e Twitter usam a imagem `public/share.png` (1200x630 recomendado)
-- Ícone do site: `public/favicon.svg` (navegadores modernos). Se desejar, adicione também `public/favicon.ico`
-- Robots e Sitemap já estão em `public/`
-
-Atenção: adicione o arquivo `public/share.png` (PNG ou JPG). Sem ele, os cards sociais usarão a imagem padrão do navegador.
+- Metadados configurados em `src/app/layout.tsx`
 
 ## Responsividade
 - Todas as seções utilizam grid/flex com breakpoints em 768px e 1024px
 - Elementos decorativos que poderiam causar rolagem lateral foram ocultados em telas menores
 - Testado para evitar sobreposição e deslocamentos inesperados
-
-## Limpeza de Código
-- Removido bloco `@theme` não utilizado e `page.module.css` não referenciado
-- Removidos anchors duplicados com `display:none` na Home (os ids existem no Footer)
-- Ajustes de CSS inválido (ex.: unidades ausentes e `inset` malformado)
-
-## Observações de Estilo
-- Cores, formas e visual foram preservados (rosa predominante, cantos arredondados)
-- Variáveis CSS existentes foram mantidas; apenas as não utilizadas foram removidas
 
 ## Autor
 - Lucas Silva
