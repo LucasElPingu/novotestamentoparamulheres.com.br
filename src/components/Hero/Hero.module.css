@@ -80,16 +80,15 @@
   display: grid;
   place-items: center;
 }
+/* Decorative floaters: hidden on small screens to avoid overlap/scroll */
 .decorativeLeft {
   position: relative;
   right: 80rem;
   top: 10rem;
-  z-index: 2; /* estava 0, pode subir pra 1 */
+  z-index: 2;
   pointer-events: none;
   opacity: 0.75;
-
 }
-
 .leftImage {
   object-fit: contain;
   max-width: 100%;
@@ -97,8 +96,7 @@
 }
 .decorativeShape {
   position: absolute;
-  inset: auto -110 20 auto;
-
+  inset: auto 0 20px auto; /* fixed invalid inset to prevent layout issues */
   opacity: 0.95;
   transform: translate(10%, -8%);
 }
@@ -150,12 +148,13 @@
   }
 }
 
+/* Pricing block beside the subtitle */
 .left {
   text-align: left;
 }
 .label {
   color: black;
-  margin: 0 0 0 30;
+  margin: 0 0 0 30px; /* missing unit fixed */
   font-size: 21px;
   font-weight: bold;
 }
@@ -178,5 +177,11 @@
 .avista {
   font-size: 0.95rem;
   color: #b86b86;
-  margin: 6 0 0 10;
+  margin: 6px 0 0 10px; /* missing units fixed */
+}
+
+@media (max-width: 1024px) {
+  .decorativeLeft {
+    display: none; /* prevent overflow/scroll on small screens */
+  }
 }

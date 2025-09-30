@@ -9,14 +9,14 @@ import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
-// New image-based sections created from provided assets (now with descriptive names)
+// New image-based sections created from provided assets (com nomes descritivos)
 import AboutDevocional from "@/components/AboutDevocional/AboutDevocional";
 import Bonus365 from "@/components/Bonus365/Bonus365";
 import BonusMulheres from "@/components/BonusMulheres/BonusMulheres";
 import ConviteTransformacao from "@/components/ConviteTransformacao/ConviteTransformacao";
 import IndiceEnriquecido from "@/components/IndiceEnriquecido/IndiceEnriquecido";
 
-// Main page: composes sections. Each image (or grouped set) is now its own component/section.
+// Home: compõe todas as seções do site. Anchors institucionais já existem no Footer.
 export default function Page() {
   return (
     <main>
@@ -38,16 +38,6 @@ export default function Page() {
       <Guarantee />
       <CtaFinal />
       <Footer />
-
-      <div id="politica" style={{ display: "none" }}>
-        Política de privacidade: seus dados não serão compartilhados.
-      </div>
-      <div id="contato" style={{ display: "none" }}>
-        Contato: suporte@novotestamentoparamulheres.com.br
-      </div>
-      <div id="direitos" style={{ display: "none" }}>
-        Conteúdo protegido por direitos autorais.
-      </div>
     </main>
   );
 }

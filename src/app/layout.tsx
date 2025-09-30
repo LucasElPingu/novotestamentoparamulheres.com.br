@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
+// Global web fonts: Inter for body, Playfair for headings
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -13,23 +14,31 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 });
 
+// SEO metadata: title/description/keywords + OpenGraph/Twitter + icons
+// Social share image must be placed at public/share.png (1200x630 recommended)
 export const metadata: Metadata = {
+  metadataBase: new URL("https://novotestamentoparamulheres.com.br"),
   title: "Devocional do Novo Testamento para Mulheres — Ebook Oficial",
   description:
     "Ebook devocional do Novo Testamento para mulheres: clareza bíblica, conexões históricas, aplicações práticas e orações para uma fé viva.",
+  keywords: [
+    "devocional",
+    "novo testamento",
+    "mulheres cristãs",
+    "estudo bíblico",
+    "ebook cristão",
+    "fé",
+    "oração",
+  ],
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Devocional do Novo Testamento para Mulheres — Ebook Oficial",
     description:
       "Um devocional completo para mulheres: estudos profundos, reflexões, orações e bônus exclusivos.",
-    url: "https://novotestamentoparamulheres.com.br",
+    url: "/",
     siteName: "Devocional NT para Mulheres",
     images: [
-      {
-        url: "https://cdn.builder.io/api/v1/image/assets%2Ff441341fa0c8439489d236cd7d5226e2%2F1bc4758dc03b4a6cbdcef0ff2a78198d?format=webp&width=1200",
-        width: 1200,
-        height: 630,
-        alt: "Devocional do Novo Testamento para Mulheres",
-      },
+      { url: "/share.png", width: 1200, height: 630, alt: "Devocional do Novo Testamento para Mulheres" },
     ],
     locale: "pt_BR",
     type: "website",
@@ -39,22 +48,19 @@ export const metadata: Metadata = {
     title: "Devocional do Novo Testamento para Mulheres",
     description:
       "Estudos, reflexões e bênçãos para mulheres que desejam entender melhor a Bíblia.",
-    images: [
-      "https://cdn.builder.io/api/v1/image/assets%2Ff441341fa0c8439489d236cd7d5226e2%2F1bc4758dc03b4a6cbdcef0ff2a78198d?format=webp&width=1200",
-    ],
+    images: ["/share.png"],
+  },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.variable} ${playfair.variable}`}>
-        {children}
-      </body>
+      {/* Body receives the CSS variable classes for fonts */}
+      <body className={`${inter.variable} ${playfair.variable}`}>{children}</body>
     </html>
   );
 }

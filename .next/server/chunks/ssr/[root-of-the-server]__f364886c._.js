@@ -72,16 +72,29 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$p
 ;
 ;
 const metadata = {
+    metadataBase: new URL("https://novotestamentoparamulheres.com.br"),
     title: "Devocional do Novo Testamento para Mulheres — Ebook Oficial",
     description: "Ebook devocional do Novo Testamento para mulheres: clareza bíblica, conexões históricas, aplicações práticas e orações para uma fé viva.",
+    keywords: [
+        "devocional",
+        "novo testamento",
+        "mulheres cristãs",
+        "estudo bíblico",
+        "ebook cristão",
+        "fé",
+        "oração"
+    ],
+    alternates: {
+        canonical: "/"
+    },
     openGraph: {
         title: "Devocional do Novo Testamento para Mulheres — Ebook Oficial",
         description: "Um devocional completo para mulheres: estudos profundos, reflexões, orações e bônus exclusivos.",
-        url: "https://novotestamentoparamulheres.com.br",
+        url: "/",
         siteName: "Devocional NT para Mulheres",
         images: [
             {
-                url: "https://cdn.builder.io/api/v1/image/assets%2Ff441341fa0c8439489d236cd7d5226e2%2F1bc4758dc03b4a6cbdcef0ff2a78198d?format=webp&width=1200",
+                url: "/share.png",
                 width: 1200,
                 height: 630,
                 alt: "Devocional do Novo Testamento para Mulheres"
@@ -95,8 +108,12 @@ const metadata = {
         title: "Devocional do Novo Testamento para Mulheres",
         description: "Estudos, reflexões e bênçãos para mulheres que desejam entender melhor a Bíblia.",
         images: [
-            "https://cdn.builder.io/api/v1/image/assets%2Ff441341fa0c8439489d236cd7d5226e2%2F1bc4758dc03b4a6cbdcef0ff2a78198d?format=webp&width=1200"
+            "/share.png"
         ]
+    },
+    icons: {
+        icon: "/favicon.svg",
+        shortcut: "/favicon.svg"
     }
 };
 function RootLayout({ children }) {
@@ -107,12 +124,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 55,
+            lineNumber: 63,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 54,
+        lineNumber: 61,
         columnNumber: 5
     }, this);
 }

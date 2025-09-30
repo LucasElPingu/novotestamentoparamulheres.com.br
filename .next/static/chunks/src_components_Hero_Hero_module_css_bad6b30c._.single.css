@@ -115,7 +115,7 @@
   top: auto;
   bottom: 20px;
   left: auto;
-  right: -110px;
+  right: 0;
   transform: translate(10%, -8%);
 }
 
@@ -211,6 +211,12 @@
   color: #b86b86;
   margin: 6px 0 0 10px;
   font-size: .95rem;
+}
+
+@media (max-width: 1024px) {
+  .Hero-module__JgYmMq__decorativeLeft {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=src_components_Hero_Hero_module_css_bad6b30c._.single.css.map*/
