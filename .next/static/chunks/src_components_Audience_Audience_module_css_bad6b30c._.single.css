@@ -1,0 +1,38 @@
+/* [project]/src/components/Audience/Audience.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --gray-soft: #555;
+}
+
+.Audience-module__lPaexW__sectionInner {
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+}
+
+.Audience-module__lPaexW__sectionTitle {
+  font-family: var(--font-playfair), serif;
+  color: var(--pink);
+  text-align: center;
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+}
+
+.Audience-module__lPaexW__audienceList {
+  color: var(--gray-soft);
+  gap: 8px;
+  max-width: 820px;
+  display: grid;
+}
+
+.Audience-module__lPaexW__check {
+  color: var(--pink);
+  margin-right: 8px;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=src_components_Audience_Audience_module_css_bad6b30c._.single.css.map*/

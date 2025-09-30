@@ -1,0 +1,99 @@
+/* [project]/src/components/BonusMulheres/BonusMulheres.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --beige: #f7efe9;
+  --brown-dark: #4a2b2b;
+  --brown: #6b4f3f;
+  --text: #4a3a3a;
+}
+
+.BonusMulheres-module__5Bdukq__section {
+  background: var(--beige);
+  padding: 64px 20px;
+  position: relative;
+}
+
+.BonusMulheres-module__5Bdukq__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.BonusMulheres-module__5Bdukq__title {
+  color: var(--brown-dark);
+  font-family: var(--font-playfair, serif);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.BonusMulheres-module__5Bdukq__grid {
+  grid-template-columns: 1fr;
+  gap: 24px;
+  display: grid;
+}
+
+.BonusMulheres-module__5Bdukq__card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .05);
+  border-radius: 18px;
+  padding: 24px;
+  transition: transform .2s, box-shadow .2s;
+  box-shadow: 0 20px 54px rgba(0, 0, 0, .06);
+}
+
+.BonusMulheres-module__5Bdukq__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, .08);
+}
+
+.BonusMulheres-module__5Bdukq__cardTitle {
+  color: var(--pink);
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.BonusMulheres-module__5Bdukq__tag {
+  color: var(--brown);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.BonusMulheres-module__5Bdukq__subtitle {
+  color: var(--brown-dark);
+  margin: 12px 0 8px;
+  font-weight: 600;
+}
+
+.BonusMulheres-module__5Bdukq__text {
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.BonusMulheres-module__5Bdukq__prayer {
+  background: #fff4db;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 12px;
+  font-style: italic;
+}
+
+.BonusMulheres-module__5Bdukq__butterfly {
+  opacity: .8;
+  position: absolute;
+  top: -30px;
+  right: 20px;
+}
+
+@media (min-width: 768px) {
+  .BonusMulheres-module__5Bdukq__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=src_components_BonusMulheres_BonusMulheres_module_css_bad6b30c._.single.css.map*/

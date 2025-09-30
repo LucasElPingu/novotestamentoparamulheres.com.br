@@ -1,0 +1,63 @@
+:root {
+  --pink: #ff1a8c;
+  --pink-light: #ffd6ea;
+  --gray-soft: #555;
+}
+.siteHeader {
+  position: static;
+  width: 100%;
+  z-index: 60;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.92)
+  );
+  backdrop-filter: blur(6px);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(12, 12, 12, 0.03);
+}
+.headerInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px;
+}
+
+.primaryNav {
+  display: none;
+  gap: 18px;
+}
+.navLink {
+  color: var(--gray-soft);
+  text-decoration: none;
+  font-weight: 700;
+}
+.navLink:hover {
+  color: var(--pink);
+}
+.navBuy {
+  color: var(--pink);
+}
+.headerCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, var(--pink), #ff3fa0);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow: 0 12px 36px rgba(255, 46, 122, 0.22);
+}
+.headerCta:hover {
+  transform: translateY(-3px);
+}
+@media (min-width: 768px) {
+  .primaryNav {
+    display: flex;
+  }
+}

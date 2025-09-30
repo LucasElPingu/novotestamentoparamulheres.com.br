@@ -1,0 +1,36 @@
+:root {
+  --pink: #ff1a8c;
+  --pink-light: #ffd6ea;
+}
+.ctaFinal {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 46, 122, 0.04),
+    var(--pink-light)
+  );
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 36px 16px 64px;
+}
+.ctaFinalTitle {
+  font-family: var(--font-playfair), serif;
+  color: var(--pink);
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center; /* Centraliza o texto */
+}
+
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
+  color: #fff;
+  padding: 16px 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 0 22px 46px rgba(255, 46, 122, 0.18);
+}

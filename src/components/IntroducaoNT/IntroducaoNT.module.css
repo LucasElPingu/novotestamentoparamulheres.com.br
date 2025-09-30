@@ -1,0 +1,8 @@
+:root{--pink:#ff1a8c;--soft:#fff7f9}
+.section{background:var(--soft);padding:56px 16px;position:relative}
+.inner{max-width:1100px;margin:0 auto}
+.title{color:var(--pink);font-family:var(--font-playfair,serif);text-align:center;margin:0 0 18px;display:flex;align-items:center;justify-content:center;gap:10px}
+.twoCol{display:block;gap:18px}
+.twoCol > div{background:#fff;padding:16px;border-radius:12px;border:1px solid rgba(0,0,0,0.03);box-shadow:0 12px 30px rgba(0,0,0,0.04)}
+.butterfly{position:absolute;top:-18px;right:18px}
+@media(min-width:768px){.twoCol{display:grid;grid-template-columns:1fr 1fr}}

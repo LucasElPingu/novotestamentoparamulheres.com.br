@@ -1,0 +1,67 @@
+/* [project]/src/components/Header/Header.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --pink-light: #ffd6ea;
+  --gray-soft: #555;
+}
+
+.Header-module__ldgnoG__siteHeader {
+  z-index: 60;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: linear-gradient(rgba(255, 255, 255, .95), rgba(255, 255, 255, .92));
+  border-bottom: 2px solid rgba(0, 0, 0, .08);
+  width: 100%;
+  position: static;
+  box-shadow: 0 8px 30px rgba(12, 12, 12, .03);
+}
+
+.Header-module__ldgnoG__headerInner {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+}
+
+.Header-module__ldgnoG__primaryNav {
+  gap: 18px;
+  display: none;
+}
+
+.Header-module__ldgnoG__navLink {
+  color: var(--gray-soft);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Header-module__ldgnoG__navLink:hover, .Header-module__ldgnoG__navBuy {
+  color: var(--pink);
+}
+
+.Header-module__ldgnoG__headerCta {
+  background: linear-gradient(180deg, var(--pink), #ff3fa0);
+  color: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline-flex;
+  box-shadow: 0 12px 36px rgba(255, 46, 122, .22);
+}
+
+.Header-module__ldgnoG__headerCta:hover {
+  transform: translateY(-3px);
+}
+
+@media (min-width: 768px) {
+  .Header-module__ldgnoG__primaryNav {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=src_components_Header_Header_module_css_bad6b30c._.single.css.map*/

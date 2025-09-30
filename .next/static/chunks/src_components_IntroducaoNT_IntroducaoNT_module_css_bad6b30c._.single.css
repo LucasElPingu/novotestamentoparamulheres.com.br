@@ -1,0 +1,55 @@
+/* [project]/src/components/IntroducaoNT/IntroducaoNT.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --soft: #fff7f9;
+}
+
+.IntroducaoNT-module__X98ycG__section {
+  background: var(--soft);
+  padding: 56px 16px;
+  position: relative;
+}
+
+.IntroducaoNT-module__X98ycG__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.IntroducaoNT-module__X98ycG__title {
+  color: var(--pink);
+  font-family: var(--font-playfair, serif);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  display: flex;
+}
+
+.IntroducaoNT-module__X98ycG__twoCol {
+  gap: 18px;
+  display: block;
+}
+
+.IntroducaoNT-module__X98ycG__twoCol > div {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .03);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .04);
+}
+
+.IntroducaoNT-module__X98ycG__butterfly {
+  position: absolute;
+  top: -18px;
+  right: 18px;
+}
+
+@media (min-width: 768px) {
+  .IntroducaoNT-module__X98ycG__twoCol {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=src_components_IntroducaoNT_IntroducaoNT_module_css_bad6b30c._.single.css.map*/

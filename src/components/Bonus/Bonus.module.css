@@ -1,0 +1,15 @@
+:root{--pink:#ff1a8c;--pink-light:#ffd6ea}
+.sectionWrapper{}
+.sectionInner{max-width:1100px;margin:0 auto;padding:40px 20px;display:flex;flex-direction:column;gap:18px;align-items:center}
+.sectionTitle{font-family:var(--font-playfair),serif;color:var(--pink);font-size:1.6rem;margin:0 0 6px 0;text-align:center}
+.sectionIntro{color:#5a2b2b;margin:0 0 18px 0;text-align:center;max-width:980px}
+.bonusGrid{display:grid;grid-template-columns:1fr;gap:24px;width:100%;justify-items:center}
+.bonusCard{position:relative;overflow:hidden;background:linear-gradient(180deg,var(--pink-light),#fffaf8);border-radius:16px;padding:20px;box-shadow:0 26px 80px rgba(255,46,122,0.08);border:2px solid rgba(255,46,122,0.26);width:100%;max-width:340px;transition:transform .32s}
+.bonusBadge{position:absolute;top:12px;right:-36px;transform:rotate(25deg);background:linear-gradient(90deg,#ff7aa8,var(--pink));color:#fff;font-weight:800;padding:8px 46px;border-radius:6px;box-shadow:0 8px 30px rgba(255,46,122,0.12)}
+.bonusCard:hover{transform:translateY(-12px) rotate(-1deg);box-shadow:0 40px 120px rgba(255,46,122,0.12)}
+.bonusTitle{color:#5a2b2b;margin:0 0 8px 0;font-weight:900;font-size:1.05rem}
+.primaryButton{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#ff6fbf 0%,var(--pink) 60%);color:#fff;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:900;box-shadow:0 18px 40px rgba(255,46,122,0.14)}
+.bonusBookShowcase{display:grid;place-items:center;gap:14px;margin-top:18px}
+.bookImageSmall{width:220px;height:auto;border-radius:12px;box-shadow:0 18px 44px rgba(0,0,0,0.12)}
+@media(min-width:768px){.bonusGrid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:768px){.bonusGrid{grid-template-columns:repeat(2,1fr)}}

@@ -1,0 +1,56 @@
+/* [project]/src/components/Footer/Footer.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --gray-soft: #555;
+}
+
+.Footer-module__Grjkva__siteFooter {
+  background: #fff;
+  border-top: 2px solid rgba(0, 0, 0, .1);
+  padding-top: 8px;
+  position: relative;
+}
+
+.Footer-module__Grjkva__footerInner {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 16px;
+  display: flex;
+}
+
+.Footer-module__Grjkva__copy {
+  color: var(--gray-soft);
+  margin: 0;
+}
+
+.Footer-module__Grjkva__footerNav {
+  flex-wrap: wrap;
+  gap: 12px;
+  display: flex;
+}
+
+.Footer-module__Grjkva__footerLink {
+  color: var(--pink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Footer-module__Grjkva__footerNote {
+  max-width: 1100px;
+  color: var(--gray-soft);
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+
+.Footer-module__Grjkva__siteFooter > svg {
+  opacity: .95;
+  position: absolute;
+  top: -12px;
+  left: 18px;
+}
+
+/*# sourceMappingURL=src_components_Footer_Footer_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,59 @@
+/* [project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --lilac: #f3dff0;
+}
+
+.IndiceEnriquecido-module__bTPbgq__section {
+  background: #fff;
+  padding: 56px 16px;
+  position: relative;
+}
+
+.IndiceEnriquecido-module__bTPbgq__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.IndiceEnriquecido-module__bTPbgq__title {
+  color: var(--pink);
+  font-family: var(--font-playfair, serif);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 20px;
+  display: flex;
+}
+
+.IndiceEnriquecido-module__bTPbgq__grid {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  display: grid;
+}
+
+.IndiceEnriquecido-module__bTPbgq__block {
+  background: linear-gradient(180deg, #fff, var(--lilac));
+  border: 1px solid rgba(0, 0, 0, .03);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, .05);
+}
+
+.IndiceEnriquecido-module__bTPbgq__apply {
+  color: #5a3a3a;
+}
+
+.IndiceEnriquecido-module__bTPbgq__butterfly {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+@media (min-width: 768px) {
+  .IndiceEnriquecido-module__bTPbgq__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*# sourceMappingURL=src_components_IndiceEnriquecido_IndiceEnriquecido_module_css_bad6b30c._.single.css.map*/

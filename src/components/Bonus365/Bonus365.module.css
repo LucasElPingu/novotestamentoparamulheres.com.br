@@ -1,0 +1,97 @@
+:root {
+  --pink: #ff1a8c;
+  --pink-light: #fff0f5;
+}
+.section {
+  background: rgb(233, 213, 216);
+  padding: 56px 16px;
+  position: relative;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.title {
+  font-family: var(--font-playfair, serif);
+  color: var(--pink);
+  text-align: center;
+  margin: -30 0 40px;
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+text-decoration: underline;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+}
+
+.card {
+  background: linear-gradient(180deg, var(--pink-light), #fff);
+  padding: 20px;
+  border-radius: 16px;
+  border: 10px solid rgb(224, 129, 145);
+  box-shadow: 0 20px 60px rgba(12, 12, 12, 0.06);
+  transition: transform 220ms ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.cardTitle {
+  margin: 0 0 8px;
+  color: #5a2b2b;
+  text-decoration: underline;
+}
+.cardText {
+  color: #4a3a3a;
+  margin: 0 0 10px;
+  line-height: 1.6;
+  color: #800040;
+}
+.prayer {
+  background: #fff4db;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #800040;
+}
+.butterfly {
+  position: absolute;
+  top: -18px;
+  left: 18px;
+  opacity: 0.95;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.bonusDecorative{
+    position: absolute;
+}
+
+.overlayWrap {
+  position: relative;
+  left: -40px;
+  top: 10px;
+  width: 360px;
+  height: 360px;
+  pointer-events: none;
+  z-index: 0;
+}
+.overlayImg {
+  object-fit: contain;
+}

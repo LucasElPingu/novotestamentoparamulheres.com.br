@@ -1,0 +1,37 @@
+/* [project]/src/components/CtaFinal/CtaFinal.module.css [app-client] (css) */
+:root {
+  --pink: #ff1a8c;
+  --pink-light: #ffd6ea;
+}
+
+.CtaFinal-module__ocsg4G__ctaFinal {
+  background: linear-gradient(180deg, rgba(255, 46, 122, .04), var(--pink-light));
+  place-items: center;
+  gap: 12px;
+  padding: 36px 16px 64px;
+  display: grid;
+}
+
+.CtaFinal-module__ocsg4G__ctaFinalTitle {
+  font-family: var(--font-playfair), serif;
+  color: var(--pink);
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.CtaFinal-module__ocsg4G__primaryButton {
+  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
+  color: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 26px;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-flex;
+  box-shadow: 0 22px 46px rgba(255, 46, 122, .18);
+}
+
+/*# sourceMappingURL=src_components_CtaFinal_CtaFinal_module_css_bad6b30c._.single.css.map*/

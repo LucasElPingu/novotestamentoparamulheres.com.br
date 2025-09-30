@@ -1,0 +1,6 @@
+.butterfly{display:block;filter:drop-shadow(0 6px 18px rgba(255,46,122,0.12));transition:transform 420ms cubic-bezier(.2,.9,.3,1)}
+/* Utility modifiers (applied by parent via className) */
+:global(.small){width:36px;height:36px}
+:global(.medium){width:56px;height:56px}
+:global(.large){width:96px;height:96px}
+:global(.rotate){-webkit-transform:rotate(-6deg);transform:rotate(-6deg)}

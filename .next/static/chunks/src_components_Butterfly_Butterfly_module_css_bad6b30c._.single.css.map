@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/Butterfly/Butterfly.module.css"],"sourcesContent":[".butterfly{display:block;filter:drop-shadow(0 6px 18px rgba(255,46,122,0.12));transition:transform 420ms cubic-bezier(.2,.9,.3,1)}\n/* Utility modifiers (applied by parent via className) */\n:global(.small){width:36px;height:36px}\n:global(.medium){width:56px;height:56px}\n:global(.large){width:96px;height:96px}\n:global(.rotate){-webkit-transform:rotate(-6deg);transform:rotate(-6deg)}\n"],"names":[],"mappings":"AAAA;;;;;;AAEA;;;;;AACA;;;;;AACA;;;;;AACA"}}]
+}

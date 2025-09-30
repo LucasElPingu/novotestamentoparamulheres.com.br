@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css"],"sourcesContent":[":root{--pink:#ff1a8c;--lilac:#f3dff0}\n.section{background:#fff;padding:56px 16px;position:relative}\n.inner{max-width:1100px;margin:0 auto}\n.title{color:var(--pink);font-family:var(--font-playfair,serif);text-align:center;margin:0 0 20px;display:flex;align-items:center;justify-content:center;gap:10px}\n.grid{display:grid;grid-template-columns:1fr;gap:20px}\n.block{background:linear-gradient(180deg,#fff,var(--lilac));padding:18px;border-radius:14px;border:1px solid rgba(0,0,0,0.03);box-shadow:0 18px 46px rgba(0,0,0,0.05)}\n.apply{color:#5a3a3a}\n.butterfly{position:absolute;top:-20px;left:20px}\n@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr)}}\n"],"names":[],"mappings":"AAAA;;;;;AACA;;;;;;AACA;;;;;AACA;;;;;;;;;;;AACA;;;;;;AACA;;;;;;;;AACA;;;;AACA;;;;;;AACA;EAAwB"}}]
+}

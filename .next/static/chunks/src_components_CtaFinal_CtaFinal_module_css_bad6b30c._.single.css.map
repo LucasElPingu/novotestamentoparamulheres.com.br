@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/CtaFinal/CtaFinal.module.css"],"sourcesContent":[":root {\n  --pink: #ff1a8c;\n  --pink-light: #ffd6ea;\n}\n.ctaFinal {\n  background: linear-gradient(\n    180deg,\n    rgba(255, 46, 122, 0.04),\n    var(--pink-light)\n  );\n  display: grid;\n  place-items: center;\n  gap: 12px;\n  padding: 36px 16px 64px;\n}\n.ctaFinalTitle {\n  font-family: var(--font-playfair), serif;\n  color: var(--pink);\n  margin: 0;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-align: center; /* Centraliza o texto */\n}\n\n.primaryButton {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);\n  color: #fff;\n  padding: 16px 26px;\n  border-radius: 999px;\n  text-decoration: none;\n  font-weight: 900;\n  box-shadow: 0 22px 46px rgba(255, 46, 122, 0.18);\n}\n"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;;;;;AAWA;;;;;;;;;AASA"}}]
+}

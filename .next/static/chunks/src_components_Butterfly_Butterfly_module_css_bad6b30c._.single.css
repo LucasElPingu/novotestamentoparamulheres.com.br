@@ -1,0 +1,27 @@
+/* [project]/src/components/Butterfly/Butterfly.module.css [app-client] (css) */
+.Butterfly-module__ro0gVG__butterfly {
+  filter: drop-shadow(0 6px 18px rgba(255, 46, 122, .12));
+  transition: transform .42s cubic-bezier(.2, .9, .3, 1);
+  display: block;
+}
+
+.small {
+  width: 36px;
+  height: 36px;
+}
+
+.medium {
+  width: 56px;
+  height: 56px;
+}
+
+.large {
+  width: 96px;
+  height: 96px;
+}
+
+.rotate {
+  transform: rotate(-6deg);
+}
+
+/*# sourceMappingURL=src_components_Butterfly_Butterfly_module_css_bad6b30c._.single.css.map*/
