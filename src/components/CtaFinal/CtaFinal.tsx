@@ -19,14 +19,6 @@ export default function CtaFinal() {
           height={480}
           className={stylesb.bookImageSmall}
         />
-        <a
-          href="https://chk.eduzz.com/69KA2GO70O"
-          className={stylesb.primaryButton}
-          rel="nofollow noopener"
-          target="_blank"
-        >
-          Quero meu Devocional
-        </a>
       </div>
       <a
         href="https://chk.eduzz.com/69KA2GO70O"

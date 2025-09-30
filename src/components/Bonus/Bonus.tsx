@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./Bonus.module.css";
 
 // Bonus: cards grid and book showcase. Kept content identical to original page.
@@ -51,23 +50,7 @@ export default function Bonus() {
           </div>
         </div>
 
-        <div className={styles.bonusBookShowcase}>
-          <Image
-            src="/images/book.png"
-            alt="Visual do eBook"
-            width={360}
-            height={480}
-            className={styles.bookImageSmall}
-          />
-          <a
-            href="https://chk.eduzz.com/69KA2GO70O"
-            className={styles.primaryButton}
-            rel="nofollow noopener"
-            target="_blank"
-          >
-            Quero meu Devocional
-          </a>
-        </div>
+
       </div>
     </section>
   );

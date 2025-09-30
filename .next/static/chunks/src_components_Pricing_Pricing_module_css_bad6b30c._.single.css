@@ -5,7 +5,7 @@
 }
 
 .Pricing-module__Pm6ArG__section {
-  background: linear-gradient(#fff, #fff7fb);
+  background: pink;
   padding: 48px 16px;
   display: flex;
   position: relative;
@@ -20,7 +20,7 @@
 
 .Pricing-module__Pm6ArG__card {
   background: #fff;
-  border: 2px solid rgba(255, 46, 122, .08);
+  border: 10px solid #c06675;
   border-radius: 16px;
   flex-direction: column;
   align-items: center;
@@ -84,21 +84,6 @@
   position: absolute;
   top: -24px;
   right: 24px;
-}
-
-.Pricing-module__Pm6ArG__overlayWrap {
-  pointer-events: none;
-  z-index: 0;
-  width: 420px;
-  height: 420px;
-  position: absolute;
-  top: 4px;
-  right: -60px;
-}
-
-.Pricing-module__Pm6ArG__overlayImg {
-  object-fit: contain;
-  filter: opacity(12%);
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,4 @@
 import Butterfly from '@/components/Butterfly/Butterfly'
-import Image from 'next/image'
 import styles from './Pricing.module.css'
 
 // Pricing: prominent pricing block with emphasis on installment option and decorative butterfly
@@ -8,11 +7,6 @@ export default function Pricing(){
     <section id="preco" className={styles.section}>
       {/* decorative butterfly near price */}
       <Butterfly className="large rotate" />
-
-      {/* Decorative price overlay image positioned behind the card */}
-      <div className={styles.overlayWrap} aria-hidden>
-        <Image src="https://cdn.builder.io/api/v1/image/assets%2Ff441341fa0c8439489d236cd7d5226e2%2F1f0a72abb7bd40dba72474ae693eec44?format=webp&w=1200" alt="" fill className={styles.overlayImg} />
-      </div>
 
       <div className={styles.inner}>
         <div className={styles.card}>

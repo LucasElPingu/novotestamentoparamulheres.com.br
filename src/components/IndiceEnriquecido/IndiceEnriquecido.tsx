@@ -1,14 +1,18 @@
-import React from 'react'
-import styles from './IndiceEnriquecido.module.css'
-import Butterfly from '@/components/Butterfly/Butterfly'
+import Butterfly from "@/components/Butterfly/Butterfly";
+import styles from "./IndiceEnriquecido.module.css";
 
-// IndiceEnriquecido: migrated implementation from original SectionImage4.
-export default function IndiceEnriquecido(){
+// Índice enriquecido do Novo Testamento
+export default function IndiceEnriquecido() {
   return (
     <section id="indice" className={styles.section}>
-      <Butterfly className="large rotate" />
+      <Butterfly className={`${styles.butterfly} large rotate`} />
+
       <div className={styles.inner}>
-        <h2 className={styles.title}><Butterfly className="small" />Bônus Exclusivos — Índice Enriquecido do Novo Testamento</h2>
+        <h2 className={styles.title}>
+          <Butterfly className="small" />
+          Bônus Exclusivos — Índice Enriquecido do Novo Testamento
+        </h2>
+
         <div className={styles.grid}>
           <div className={styles.block}>
             <h3>Capítulo 14 — As Sete Igrejas da Ásia (Ap 2–3)</h3>
@@ -18,7 +22,10 @@ export default function IndiceEnriquecido(){
               <li>Pérgamo: compromisso com a verdade</li>
               <li>Tiatira: tolerância ao pecado</li>
             </ul>
-            <p className={styles.apply}><strong>Aplicação:</strong> Examine-se: em qual igreja sua devoção se parece?</p>
+            <p className={styles.apply}>
+              <strong>Aplicação:</strong> Examine-se: em qual igreja sua devoção
+              se parece?
+            </p>
           </div>
 
           <div className={styles.block}>
@@ -32,10 +39,13 @@ export default function IndiceEnriquecido(){
 
           <div className={styles.block}>
             <h3>Capítulo 15 — O Trono e o Cordeiro</h3>
-            <p>Visão do céu; adoração contínua e a dignidade do Cordeiro que abre os selos.</p>
+            <p>
+              Visão do céu; adoração contínua e a dignidade do Cordeiro que abre
+              os selos.
+            </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

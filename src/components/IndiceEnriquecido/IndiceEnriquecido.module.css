@@ -1,9 +1,83 @@
-:root{--pink:#ff1a8c;--lilac:#f3dff0}
-.section{background:#fff;padding:56px 16px;position:relative}
-.inner{max-width:1100px;margin:0 auto}
-.title{color:var(--pink);font-family:var(--font-playfair,serif);text-align:center;margin:0 0 20px;display:flex;align-items:center;justify-content:center;gap:10px}
-.grid{display:grid;grid-template-columns:1fr;gap:20px}
-.block{background:linear-gradient(180deg,#fff,var(--lilac));padding:18px;border-radius:14px;border:1px solid rgba(0,0,0,0.03);box-shadow:0 18px 46px rgba(0,0,0,0.05)}
-.apply{color:#5a3a3a}
-.butterfly{position:absolute;top:-20px;left:20px}
-@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr)}}
+:root {
+  --pink: #e75480; /* rosa suave e elegante */
+  --pink-light: #ffe9f1; /* fundo rosado bem leve */
+  --lilac: #f9f0fb;
+  --text: #463232;
+}
+
+.section {
+  background: linear-gradient(180deg, #fff, var(--pink-light));
+  padding: 72px 20px;
+  position: relative;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--pink);
+  font-family: var(--font-playfair, serif);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  letter-spacing: 0.5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.block {
+  background: linear-gradient(160deg, #fff, var(--lilac));
+  padding: 26px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 192, 203, 0.25);
+  box-shadow: 0 16px 40px rgba(231, 84, 128, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.block:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 50px rgba(231, 84, 128, 0.12);
+}
+
+.block h3 {
+  color: var(--pink);
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.block ul li {
+  margin-bottom: 6px;
+  color: var(--text);
+}
+
+.apply {
+  color: var(--text);
+  margin-top: 14px;
+  font-style: italic;
+  background: #fff7fa;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.butterfly {
+  position: absolute;
+  top: -20px;
+  left: 24px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

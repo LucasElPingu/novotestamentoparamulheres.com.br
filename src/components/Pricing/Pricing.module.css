@@ -3,7 +3,7 @@
   --bg: #fff;
 }
 .section {
-  background: linear-gradient(180deg, #fff, #fff7fb);
+  background: pink;
   padding: 48px 16px;
   position: relative;
   display: flex;
@@ -25,6 +25,7 @@
   border: 2px solid rgba(255, 46, 122, 0.08);
   background: #fff;
   box-shadow: 0 24px 80px rgba(12, 12, 12, 0.06);
+  border: 10px solid rgb(192, 102, 117);
 }
 .left {
   text-align: left;
@@ -73,19 +74,7 @@
   top: -24px;
   right: 24px;
 }
-.overlayWrap {
-  position: absolute;
-  right: -60px;
-  top: 4px;
-  width: 420px;
-  height: 420px;
-  pointer-events: none;
-  z-index: 0;
-}
-.overlayImg {
-  object-fit: contain;
-  filter: opacity(12%);
-}
+
 @media (min-width: 768px) {
   .card {
     flex-direction: row;

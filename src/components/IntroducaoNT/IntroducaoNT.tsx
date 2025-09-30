@@ -1,18 +1,25 @@
-import React from 'react'
-import styles from './IntroducaoNT.module.css'
-import Butterfly from '@/components/Butterfly/Butterfly'
+import Butterfly from "@/components/Butterfly/Butterfly";
+import styles from "./IntroducaoNT.module.css";
 
-// IntroducaoNT: migrated implementation from original SectionImage5.
-export default function IntroducaoNT(){
+// Introdução ao Novo Testamento
+export default function IntroducaoNT() {
   return (
     <section id="introducao" className={styles.section}>
-      <Butterfly className="medium" />
+      <Butterfly className={`${styles.butterfly} medium`} />
+
       <div className={styles.inner}>
-        <h2 className={styles.title}><Butterfly className="small" />Índice Enriquecido — Introdução ao Novo Testamento</h2>
+        <h2 className={styles.title}>
+          <Butterfly className="small" />
+          Índice Enriquecido — Introdução ao Novo Testamento
+        </h2>
+
         <div className={styles.twoCol}>
-          <div>
+          <div className={styles.card}>
             <h3>O que é o Novo Testamento</h3>
-            <p>Conjunto de 27 livros, escritos em grego koiné, entre aproximadamente 50 d.C. e 95 d.C.</p>
+            <p>
+              Conjunto de 27 livros, escritos em grego koiné, entre
+              aproximadamente 50 d.C. e 95 d.C.
+            </p>
             <ul>
               <li>Evangélios (4): Mateus, Marcos, Lucas, João</li>
               <li>História (1): Atos dos Apóstolos</li>
@@ -21,13 +28,19 @@ export default function IntroducaoNT(){
             </ul>
           </div>
 
-          <div>
+          <div className={styles.card}>
             <h3>Contexto Histórico</h3>
-            <p><strong>Império Romano:</strong> paz romana, estradas, moeda única; cultura helenística; práticas sociais e cidadania.</p>
-            <p><strong>Judaísmo no 1º século:</strong> Templo como centro religioso; sinagoga como espaço de ensino; expectativa messiânica.</p>
+            <p>
+              <strong>Império Romano:</strong> paz romana, estradas, moeda única;
+              cultura helenística; práticas sociais e cidadania.
+            </p>
+            <p>
+              <strong>Judaísmo no 1º século:</strong> Templo como centro
+              religioso; sinagoga como espaço de ensino; expectativa messiânica.
+            </p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

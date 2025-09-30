@@ -1,10 +1,105 @@
-:root{--pink:#ff1a8c;--bg:#ffdfe8}
-.section{background:linear-gradient(180deg,#fff,#ffeef3);padding:56px 16px;position:relative}
-.inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
-.content{background:transparent}
-.title{color:var(--pink);font-family:var(--font-playfair,serif);font-size:1.6rem;margin:0 0 8px;display:flex;align-items:center;gap:10px}
-.list{margin:12px 0 12px 20px}
-.conclusion{margin-top:12px;color:#4a3a3a}
-.mockup{display:flex;justify-content:center}
-.butterfly{position:absolute;top:-10px;left:18px}
-@media(min-width:768px){.inner{grid-template-columns:1fr 360px}}
+:root {
+  --pink: #ff1a8c;
+  --bg-light: #fff7fa;
+}
+
+.section {
+  background: linear-gradient(180deg, #fff, #ffe6f0, var(--bg-light));
+  padding: 90px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.content {
+  background: transparent;
+}
+
+.title {
+  color: var(--pink);
+  font-family: var(--font-playfair, serif);
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-shadow: 0 3px 12px rgba(255, 26, 140, 0.25);
+}
+
+.list {
+  margin: 18px 0 18px 26px;
+  list-style: disc;
+  color: #4a3a3a;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.conclusion {
+  margin-top: 20px;
+  color: #4a3a3a;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.mockup {
+  display: flex;
+  justify-content: center;
+}
+
+.butterfly {
+  position: absolute;
+  top: -10px;
+  left: 18px;
+}
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 0 18px 40px rgba(255, 46, 122, 0.14);
+}
+
+.primaryButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 22px 48px rgba(255, 46, 122, 0.22);
+}
+
+.bonusBookShowcase {
+  display: grid;
+  place-items: center;
+  gap: 14px;
+  margin-top: 18px;
+  background-color: pink;
+}
+.bookImageSmall {
+  width: 300px;
+  height: 350px;
+  border-radius: 12px;
+  border: 10px solid rgb(192, 102, 117);
+  margin-top: 20px;
+  margin-left: 70px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.12);
+}
+
+.bookImageSmall:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr 360px;
+  }
+}

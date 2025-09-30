@@ -1,12 +1,14 @@
 /* [project]/src/components/IntroducaoNT/IntroducaoNT.module.css [app-client] (css) */
 :root {
-  --pink: #ff1a8c;
-  --soft: #fff7f9;
+  --pink: #e75480;
+  --soft: #fff5f8;
+  --soft-gradient: linear-gradient(180deg, #fff, #ffeaf1);
+  --text: #4a3a3a;
 }
 
 .IntroducaoNT-module__X98ycG__section {
-  background: var(--soft);
-  padding: 56px 16px;
+  background: var(--soft-gradient);
+  padding: 72px 20px;
   position: relative;
 }
 
@@ -21,34 +23,56 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin: 0 0 18px;
+  gap: 12px;
+  margin-bottom: 36px;
+  font-size: 2rem;
+  font-weight: 600;
   display: flex;
 }
 
 .IntroducaoNT-module__X98ycG__twoCol {
-  gap: 18px;
-  display: block;
+  gap: 28px;
+  display: grid;
 }
 
-.IntroducaoNT-module__X98ycG__twoCol > div {
+.IntroducaoNT-module__X98ycG__card {
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, .03);
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, .04);
+  border: 1px solid rgba(231, 84, 128, .15);
+  border-radius: 16px;
+  padding: 26px;
+  transition: transform .25s, box-shadow .25s;
+  box-shadow: 0 14px 34px rgba(231, 84, 128, .08);
+}
+
+.IntroducaoNT-module__X98ycG__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 46px rgba(231, 84, 128, .12);
+}
+
+.IntroducaoNT-module__X98ycG__card h3 {
+  color: var(--pink);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.IntroducaoNT-module__X98ycG__card p, .IntroducaoNT-module__X98ycG__card li {
+  color: var(--text);
+}
+
+.IntroducaoNT-module__X98ycG__card ul {
+  margin-top: 8px;
+  padding-left: 20px;
 }
 
 .IntroducaoNT-module__X98ycG__butterfly {
   position: absolute;
   top: -18px;
-  right: 18px;
+  right: 20px;
 }
 
 @media (min-width: 768px) {
   .IntroducaoNT-module__X98ycG__twoCol {
     grid-template-columns: 1fr 1fr;
-    display: grid;
   }
 }
 
