@@ -1,6 +1,6 @@
 import styles from "./Bonus.module.css";
 
-// Bonus: cards grid and book showcase. Kept content identical to original page.
+// Bonus: cards grid and book showcase
 export default function Bonus() {
   return (
     <section id="bonus" className={styles.sectionWrapper}>
@@ -49,8 +49,6 @@ export default function Bonus() {
             <p>Comunidade para troca, suporte e oração.</p>
           </div>
         </div>
-
-
       </div>
     </section>
   );

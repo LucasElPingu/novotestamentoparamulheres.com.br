@@ -25,17 +25,6 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className={styles.heroActions}>
-            <a
-              href="https://chk.eduzz.com/69KA2GO70O"
-              className={`${styles.primaryButton} ${styles.pulse}`}
-              rel="nofollow noopener"
-              target="_blank"
-            >
-              QUERO MEU DEVOCIONAL AGORA
-            </a>
-          </div>
-
           <ul className={styles.heroBullets}>
             <li>Clareza que ilumina o texto</li>
             <li>Coração em chamas pela Palavra</li>

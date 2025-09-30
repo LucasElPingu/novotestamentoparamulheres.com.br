@@ -5,7 +5,7 @@
 }
 
 .Pricing-module__Pm6ArG__section {
-  background: pink;
+  background: #fff;
   padding: 48px 16px;
   display: flex;
   position: relative;
@@ -20,7 +20,7 @@
 
 .Pricing-module__Pm6ArG__card {
   background: #fff;
-  border: 10px solid #c06675;
+  border: 2px solid rgba(255, 46, 122, .08);
   border-radius: 16px;
   flex-direction: column;
   align-items: center;

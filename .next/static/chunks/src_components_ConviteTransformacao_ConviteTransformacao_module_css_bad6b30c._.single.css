@@ -6,14 +6,14 @@
 
 .ConviteTransformacao-module__utoBGG__section {
   background: linear-gradient(180deg, #fff, #ffe6f0, var(--bg-light));
-  padding: 90px 20px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
 }
 
 .ConviteTransformacao-module__utoBGG__inner {
   grid-template-columns: 1fr;
-  align-items: center;
+  align-items: start;
   gap: 32px;
   max-width: 1100px;
   margin: 0 auto;
@@ -50,60 +50,32 @@
   font-weight: 600;
 }
 
-.ConviteTransformacao-module__utoBGG__mockup {
-  justify-content: center;
-  display: flex;
-}
-
 .ConviteTransformacao-module__utoBGG__butterfly {
   position: absolute;
   top: -10px;
   left: 18px;
 }
 
-.ConviteTransformacao-module__utoBGG__primaryButton {
-  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
-  color: #fff;
-  border-radius: 999px;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 20px;
-  font-weight: 900;
-  text-decoration: none;
-  display: inline-flex;
-  box-shadow: 0 18px 40px rgba(255, 46, 122, .14);
-}
-
-.ConviteTransformacao-module__utoBGG__primaryButton:hover {
-  transform: scale(1.05);
-  box-shadow: 0 22px 48px rgba(255, 46, 122, .22);
-}
-
-.ConviteTransformacao-module__utoBGG__bonusBookShowcase {
-  background-color: pink;
-  place-items: center;
-  gap: 14px;
-  margin-top: 18px;
-  display: grid;
-}
-
 .ConviteTransformacao-module__utoBGG__bookImageSmall {
-  border: 10px solid #c06675;
   border-radius: 12px;
   width: 300px;
   height: 350px;
-  margin-top: 20px;
-  margin-left: 70px;
+  transition: transform .25s;
   box-shadow: 0 18px 44px rgba(0, 0, 0, .12);
 }
 
 .ConviteTransformacao-module__utoBGG__bookImageSmall:hover {
-  transform: rotate(0)scale(1.05);
+  transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
   .ConviteTransformacao-module__utoBGG__inner {
     grid-template-columns: 1fr 360px;
+  }
+
+  .ConviteTransformacao-module__utoBGG__bookPricing {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 

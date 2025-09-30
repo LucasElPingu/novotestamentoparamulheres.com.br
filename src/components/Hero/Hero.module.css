@@ -35,9 +35,7 @@
   max-width: 720px;
   font-size: 1.05rem;
 }
-.heroActions {
-  margin-top: 8px;
-}
+
 .primaryButton {
   display: inline-flex;
   align-items: center;

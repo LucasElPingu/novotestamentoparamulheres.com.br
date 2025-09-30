@@ -2,17 +2,21 @@
   --pink: #ff1a8c;
   --pink-light: #ffd6ea;
 }
+
 .sectionWrapper {
+  width: 100%;
 }
+
 .sectionInner {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 24px; /* espaçamento entre título, texto e grid */
   align-items: center;
 }
+
 .sectionTitle {
   font-family: var(--font-playfair), serif;
   color: var(--pink);
@@ -20,19 +24,22 @@
   margin: 0 0 6px 0;
   text-align: center;
 }
+
 .sectionIntro {
   color: #5a2b2b;
-  margin: 0 0 18px 0;
+  margin: 0 0 24px 0;
   text-align: center;
   max-width: 980px;
 }
+
 .bonusGrid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: 56px; /* espaçamento entre os cards */
   width: 100%;
   justify-items: center;
 }
+
 .bonusCard {
   position: relative;
   overflow: hidden;
@@ -45,6 +52,7 @@
   max-width: 340px;
   transition: transform 0.32s;
 }
+
 .bonusBadge {
   position: absolute;
   top: 12px;
@@ -57,45 +65,25 @@
   border-radius: 6px;
   box-shadow: 0 8px 30px rgba(255, 46, 122, 0.12);
 }
+
 .bonusCard:hover {
   transform: translateY(-12px) rotate(-1deg);
   box-shadow: 0 40px 120px rgba(255, 46, 122, 0.12);
 }
+
 .bonusTitle {
   color: #5a2b2b;
   margin: 0 0 8px 0;
   font-weight: 900;
   font-size: 1.05rem;
 }
-.primaryButton {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 900;
-  box-shadow: 0 18px 40px rgba(255, 46, 122, 0.14);
-}
-.bonusBookShowcase {
-  display: grid;
-  place-items: center;
-  gap: 14px;
-  margin-top: 18px;
-}
-.bookImageSmall {
-  width: 220px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.12);
-}
+
 @media (min-width: 768px) {
   .bonusGrid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (max-width: 768px) {
   .bonusGrid {
     grid-template-columns: repeat(2, 1fr);

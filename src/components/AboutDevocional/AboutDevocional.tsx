@@ -2,25 +2,27 @@ import Butterfly from "@/components/Butterfly/Butterfly";
 import Image from "next/image";
 import styles from "./AboutDevocional.module.css";
 
-// AboutDevocional: content from original SectionImage1 moved here.
-// Shows 'O que você vai encontrar neste devocional' and 'Por que este ebook é diferente'.
+// AboutDevocional: seção sobre o devocional
 export default function AboutDevocional() {
   return (
     <section id="sobre" className={styles.section}>
-      <Butterfly className="medium rotate" />
-      <div className={styles.aboutDecorative}>
-        <div className={styles.overlayWrap} aria-hidden>
+      {/* Borboleta decorativa */}
+      
+      <div className={styles.inner}>
+        
+        {/* Fly1 decorativo flutuante */}
+      <div className={styles.aboutDecorative} aria-hidden>
+        <div className={styles.overlayWrap}>
           <Image
-            src="/images/fly1.png"
+            src="/images/fly6.png"
             alt=""
-            fill
-            sizes="(min-width:768px) 300px, 150px"
+            width={300}
+            height={300}
             className={styles.overlayImg}
           />
         </div>
       </div>
 
-      <div className={styles.inner}>
         <div className={styles.left}>
           <h2 className={styles.title}>
             <span className={styles.titleIcon}>
@@ -33,8 +35,7 @@ export default function AboutDevocional() {
               Uma explicação clara e acessível de cada parte do Novo Testamento.
             </li>
             <li>
-              Conexões históricas, culturais e espirituais que tornam a leitura
-              viva.
+              Conexões históricas, culturais e espirituais que tornam a leitura viva.
             </li>
             <li>Aplicações práticas para a vida da mulher cristã hoje.</li>
             <li>
@@ -43,8 +44,7 @@ export default function AboutDevocional() {
           </ul>
           <p className={styles.lead}>
             Este não é apenas um estudo bíblico. É o encontro diário com Jesus
-            através da Palavra, explicado de forma humana, profunda e
-            envolvente.
+            através da Palavra, explicado de forma humana, profunda e envolvente.
           </p>
         </div>
 

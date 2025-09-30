@@ -46,7 +46,7 @@ function About() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].sectionIntro,
-                    children: "Este eBook foi escrito para guiá-la com clareza pelas páginas do Novo Testamento, conectando o coração à verdade bíblica. A cada leitura, o entendimento se aprofunda, o coração pega fogo e a fé se torna mais viva e prática."
+                    children: "Este eBook foi escrito para guiá-la com clareza pelas páginas do Novo Testamento, conectando o coração à verdade bíblica. A cada leitura, você será transformada pela palavra e viverá a vida que Jesus escolheu para você."
                 }, void 0, false, {
                     fileName: "[project]/src/components/About/About.tsx",
                     lineNumber: 9,
@@ -64,7 +64,7 @@ function About() {
                                     children: "✓"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 13,
+                                    lineNumber: 18,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -72,33 +72,7 @@ function About() {
                                     children: "Explicações acessíveis que respeitam o texto bíblico."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 14,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/About/About.tsx",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureItem,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureIcon,
-                                    "aria-hidden": true,
-                                    children: "✓"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureText,
-                                    children: "Conexões históricas que revelam o contexto do Evangelho."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 19,
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -116,21 +90,21 @@ function About() {
                                     children: "✓"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureText,
-                                    children: "Aplicações práticas para sua vida, família e ministério."
+                                    children: "Conexões históricas que revelam o contexto do Evangelho."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/About/About.tsx",
-                            lineNumber: 22,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -142,7 +116,33 @@ function About() {
                                     children: "✓"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 36,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureText,
+                                    children: "Aplicações práticas para sua vida, família e ministério."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/About/About.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/About/About.tsx",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureItem,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2f$About$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].featureIcon,
+                                    "aria-hidden": true,
+                                    children: "✓"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/About/About.tsx",
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -150,19 +150,19 @@ function About() {
                                     children: "Orações e reflexões para cultivar uma devoção diária."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About/About.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/About/About.tsx",
-                            lineNumber: 27,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/About/About.tsx",
-                    lineNumber: 11,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             ]
@@ -795,6 +795,7 @@ __turbopack_context__.v({
 
 __turbopack_context__.v({
   "butterfly": "Butterfly-module__ro0gVG__butterfly",
+  "cardImg": "Butterfly-module__ro0gVG__cardImg",
 });
 }),
 "[project]/src/components/Butterfly/Butterfly.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -810,100 +811,172 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Butterf
 ;
 function Butterfly({ className }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Butterfly$2f$Butterfly$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].butterfly} ${className || ''}`,
-        viewBox: "0 0 64 64",
+        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Butterfly$2f$Butterfly$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].butterfly} ${className || ""}`,
+        viewBox: "0 0 100 100",
         width: "64",
         height: "64",
         xmlns: "http://www.w3.org/2000/svg",
         "aria-hidden": true,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
-                    id: "g1",
-                    x1: "0%",
-                    x2: "100%",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                            offset: "0%",
-                            stopColor: "#ffd6e8"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                            offset: "100%",
-                            stopColor: "#ff9cc1"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                            lineNumber: 19,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
-                fill: "none",
-                stroke: "none",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        d: "M22 10c6-6 18-6 24 0 6 6 6 18 0 24-6 6-18 6-24 0C16 28 16 16 22 10z",
-                        fill: "url(#g1)",
-                        opacity: "0.95"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("radialGradient", {
+                        id: "wingGradient",
+                        cx: "50%",
+                        cy: "50%",
+                        r: "70%",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "0%",
+                                stopColor: "#fff0f7"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "100%",
+                                stopColor: "#ff8fbf"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                        lineNumber: 23,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        d: "M42 10c-6-6-18-6-24 0-6 6-6 18 0 24 6 6 18 6 24 0C48 28 48 16 42 10z",
-                        fill: "#ffb6d0",
-                        opacity: "0.95",
-                        transform: "translate(6,0) scale(-1,1) translate(-6,0)"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
+                        id: "bodyGradient",
+                        x1: "0%",
+                        x2: "100%",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "0%",
+                                stopColor: "#ff5ea8"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "100%",
+                                stopColor: "#d63384"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                                lineNumber: 21,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                        lineNumber: 24,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                        cx: "32",
-                        cy: "32",
-                        r: "2",
-                        fill: "#ff5ea8"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        d: "M31 34c-2 6 2 10 2 10s4-4 2-10",
-                        stroke: "#ff5ea8",
-                        strokeWidth: "1",
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                        lineNumber: 26,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-                lineNumber: 22,
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M20,40 C10,10 50,10 45,40 Q40,70 20,40 Z",
+                fill: "url(#wingGradient)",
+                stroke: "#ff9cc1",
+                strokeWidth: "1.2",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 26,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M80,40 C90,10 50,10 55,40 Q60,70 80,40 Z",
+                fill: "url(#wingGradient)",
+                stroke: "#ff9cc1",
+                strokeWidth: "1.2",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 33,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M25,53 C10,78 45,83 45,53 Q40,68 25,53 Z",
+                fill: "url(#wingGradient)",
+                stroke: "#ff9cc1",
+                strokeWidth: "1.2",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 42,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M75,53 C90,78 55,83 55,53 Q60,68 75,53 Z",
+                fill: "url(#wingGradient)",
+                stroke: "#ff9cc1",
+                strokeWidth: "1.2",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 51,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                x: "48",
+                y: "38",
+                width: "4",
+                height: "24",
+                rx: "2",
+                fill: "url(#bodyGradient)",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 60,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M50 36 C48 28 40 22 35 20",
+                stroke: "#d63384",
+                strokeWidth: "1.4",
+                fill: "none",
+                strokeLinecap: "round",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 71,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M50 36 C52 28 60 22 65 20",
+                stroke: "#d63384",
+                strokeWidth: "1.4",
+                fill: "none",
+                strokeLinecap: "round",
+                opacity: "0.50"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 79,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "50",
+                cy: "50",
+                r: "6",
+                fill: "white",
+                opacity: "0.3"
+            }, void 0, false, {
+                fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
+                lineNumber: 89,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Butterfly/Butterfly.tsx",
-        lineNumber: 8,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -1216,7 +1289,6 @@ __turbopack_context__.v({
   "decorativeLeft": "Hero-module__JgYmMq__decorativeLeft",
   "decorativeShape": "Hero-module__JgYmMq__decorativeShape",
   "floaty": "Hero-module__JgYmMq__floaty",
-  "heroActions": "Hero-module__JgYmMq__heroActions",
   "heroBullets": "Hero-module__JgYmMq__heroBullets",
   "heroContent": "Hero-module__JgYmMq__heroContent",
   "heroSection": "Hero-module__JgYmMq__heroSection",
@@ -1335,24 +1407,6 @@ function Hero() {
                             lineNumber: 17,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].heroActions,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://chk.eduzz.com/69KA2GO70O",
-                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].primaryButton} ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].pulse}`,
-                                rel: "nofollow noopener",
-                                target: "_blank",
-                                children: "QUERO MEU DEVOCIONAL AGORA"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Hero/Hero.tsx",
-                                lineNumber: 29,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Hero/Hero.tsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].heroBullets,
                             children: [
@@ -1360,27 +1414,27 @@ function Hero() {
                                     children: "Clareza que ilumina o texto"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 29,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Coração em chamas pela Palavra"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 30,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: "Fé viva no dia a dia"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Hero/Hero.tsx",
-                            lineNumber: 39,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1407,12 +1461,12 @@ function Hero() {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].leftImage
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero/Hero.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 38,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 37,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1423,13 +1477,13 @@ function Hero() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].rose
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Hero/Hero.tsx",
-                            lineNumber: 47,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1442,18 +1496,18 @@ function Hero() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2f$Hero$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].bookImage
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero/Hero.tsx",
-                                lineNumber: 67,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Hero/Hero.tsx",
-                            lineNumber: 66,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Hero/Hero.tsx",
-                    lineNumber: 46,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             ]
@@ -1723,34 +1777,34 @@ function AboutDevocional() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].aboutDecorative,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayWrap,
-                    "aria-hidden": true,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/images/fly1.png",
-                        alt: "",
-                        fill: true,
-                        sizes: "(min-width:768px) 300px, 150px",
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayImg
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].inner,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].aboutDecorative,
+                        "aria-hidden": true,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayWrap,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/fly6.png",
+                                alt: "",
+                                width: 300,
+                                height: 300,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayImg
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
+                                lineNumber: 15,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
+                            lineNumber: 14,
+                            columnNumber: 9
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
                         lineNumber: 13,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].inner,
-                children: [
+                        columnNumber: 7
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$AboutDevocional$2f$AboutDevocional$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].left,
                         children: [
@@ -1763,19 +1817,19 @@ function AboutDevocional() {
                                             className: "small"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 28,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 27,
                                         columnNumber: 13
                                     }, this),
                                     "O que você vai encontrar neste devocional"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1785,14 +1839,14 @@ function AboutDevocional() {
                                         children: "Uma explicação clara e acessível de cada parte do Novo Testamento."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Conexões históricas, culturais e espirituais que tornam a leitura viva."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 35,
+                                        lineNumber: 36,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1812,7 +1866,7 @@ function AboutDevocional() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1826,7 +1880,7 @@ function AboutDevocional() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1837,7 +1891,7 @@ function AboutDevocional() {
                                 children: "Por que este ebook é diferente de tudo o que você já leu?"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                lineNumber: 52,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1847,34 +1901,34 @@ function AboutDevocional() {
                                         children: "Feito pensando em mulheres reais: donas de casa, trabalhadoras, esposas e mães."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Une teologia e espiritualidade sem complicações."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Enriquecido com mapas, genealogias e aplicações devocionais."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 60,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Linha do tempo clara do Novo Testamento e índice enriquecido."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                lineNumber: 55,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1885,30 +1939,30 @@ function AboutDevocional() {
                                     children: "QUERO MEU DEVOCIONAL AGORA"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                                lineNumber: 69,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                        lineNumber: 51,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-                lineNumber: 23,
+                lineNumber: 11,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/AboutDevocional/AboutDevocional.tsx",
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -1916,17 +1970,9 @@ function AboutDevocional() {
 "[project]/src/components/Bonus365/Bonus365.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "bonusDecorative": "Bonus365-module__DX6wMa__bonusDecorative",
-  "butterfly": "Bonus365-module__DX6wMa__butterfly",
-  "card": "Bonus365-module__DX6wMa__card",
-  "cardHeader": "Bonus365-module__DX6wMa__cardHeader",
-  "cardText": "Bonus365-module__DX6wMa__cardText",
-  "cardTitle": "Bonus365-module__DX6wMa__cardTitle",
+  "cardImg": "Bonus365-module__DX6wMa__cardImg",
   "container": "Bonus365-module__DX6wMa__container",
   "grid": "Bonus365-module__DX6wMa__grid",
-  "overlayImg": "Bonus365-module__DX6wMa__overlayImg",
-  "overlayWrap": "Bonus365-module__DX6wMa__overlayWrap",
-  "prayer": "Bonus365-module__DX6wMa__prayer",
   "section": "Bonus365-module__DX6wMa__section",
   "title": "Bonus365-module__DX6wMa__title",
 });
@@ -1955,32 +2001,7 @@ function Bonus365() {
                 className: "medium"
             }, void 0, false, {
                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].bonusDecorative,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayWrap,
-                    "aria-hidden": true,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/images/fly6.png",
-                        alt: "",
-                        fill: true,
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].overlayImg
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                lineNumber: 12,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1993,227 +2014,62 @@ function Bonus365() {
                                 className: "small"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                lineNumber: 25,
+                                lineNumber: 13,
                                 columnNumber: 11
                             }, this),
                             "Bônus Exclusivos — Devocional 365"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                        lineNumber: 24,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].grid,
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardHeader,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "3 Fevereiro"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 31,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].verse,
-                                                children: "Provérbios 31:30"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 32,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 30,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Reflexão"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 34,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardText,
-                                        children: "A verdadeira beleza de uma mulher está no temor e na reverência a Deus. Hoje, reconheça que o valor que vem do coração, moldado pela fé e pelo amor divino, supera qualquer aparência externa."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 35,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].prayer,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Oração:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 41,
-                                                columnNumber: 15
-                                            }, this),
-                                            " “Senhor, ajuda‑me a cultivar um coração que Te...“"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 40,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus1-1.png",
+                                alt: "Bônus 1",
+                                width: 350,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                lineNumber: 29,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardHeader,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "21 Maio"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 48,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].verse,
-                                                children: "Salmos 90:12"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 49,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 47,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Reflexão"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 51,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardText,
-                                        children: "Irmã, valorize cada dia e viva com propósito, permitindo que a sabedoria divina guie sua jornada."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 52,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].prayer,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Oração:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 57,
-                                                columnNumber: 15
-                                            }, this),
-                                            " “Senhor, ajuda‑me a viver...“"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus1-2.png",
+                                alt: "Bônus 2",
+                                width: 350,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                lineNumber: 46,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardHeader,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "1 Junho"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 63,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].verse,
-                                                children: "Isaías 26:3"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 64,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 62,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Reflexão"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardText,
-                                        children: "Junho começa com um convite poderoso: firmar nossos olhos e coração em Deus. A paz não vem de circunstâncias, mas da confiança em Deus. Sua paz não depende da situação, mas da Presença."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].prayer,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Oração:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                                lineNumber: 73,
-                                                columnNumber: 15
-                                            }, this),
-                                            " “Senhor, ajuda‑me a manter meu...“"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus1-3.png",
+                                alt: "Bônus 3",
+                                width: 350,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bonus365$2f$Bonus365$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                                lineNumber: 61,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                        lineNumber: 28,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Bonus365/Bonus365.tsx",
-                lineNumber: 23,
+                lineNumber: 11,
                 columnNumber: 7
             }, this)
         ]
@@ -2228,15 +2084,10 @@ function Bonus365() {
 
 __turbopack_context__.v({
   "butterfly": "BonusMulheres-module__5Bdukq__butterfly",
-  "card": "BonusMulheres-module__5Bdukq__card",
-  "cardTitle": "BonusMulheres-module__5Bdukq__cardTitle",
+  "cardImg": "BonusMulheres-module__5Bdukq__cardImg",
   "grid": "BonusMulheres-module__5Bdukq__grid",
   "inner": "BonusMulheres-module__5Bdukq__inner",
-  "prayer": "BonusMulheres-module__5Bdukq__prayer",
   "section": "BonusMulheres-module__5Bdukq__section",
-  "subtitle": "BonusMulheres-module__5Bdukq__subtitle",
-  "tag": "BonusMulheres-module__5Bdukq__tag",
-  "text": "BonusMulheres-module__5Bdukq__text",
   "title": "BonusMulheres-module__5Bdukq__title",
 });
 }),
@@ -2249,7 +2100,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Butterfly$2f$Butterfly$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Butterfly/Butterfly.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/BonusMulheres/BonusMulheres.module.css [app-rsc] (css module)");
+;
 ;
 ;
 ;
@@ -2288,146 +2141,26 @@ function BonusMulheres() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].grid,
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Dia 4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tag,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Ana:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 15
-                                            }, this),
-                                            " O Poder da Oração Perseverante"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].subtitle,
-                                        children: "Estudo profundo"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].text,
-                                        children: "Ana, mãe do profeta Samuel, é símbolo de oração fervorosa; mesmo diante da vergonha e dor por ser estéril, ela levou sua dor ao altar com entrega e fé. Deus ouviu e ela concebeu Samuel."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 25,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus2-1.jpg",
+                                alt: "Bônus Mulheres 1",
+                                width: 400,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                lineNumber: 19,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Lição espiritual"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 34,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].text,
-                                        children: "Não adianta fazer muito se o coração estiver distante. Sirva, sim. Mas antes, sente-se aos pés de Jesus. A presença dEle é a melhor parte."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 35,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].prayer,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Oração:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                                lineNumber: 41,
-                                                columnNumber: 15
-                                            }, this),
-                                            " Senhor, ajuda-me a encontrar equilíbrio entre servir e te adorar."
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 40,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus2-2.jpg",
+                                alt: "Bônus Mulheres 2",
+                                width: 400,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                lineNumber: 33,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].card,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardTitle,
-                                        children: "Dia 13"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 48,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tag,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Joquebede:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                                lineNumber: 50,
-                                                columnNumber: 15
-                                            }, this),
-                                            " Maternidade Profética e Fé Estratégica"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 49,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].subtitle,
-                                        children: "Estudo profundo"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 52,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$BonusMulheres$2f$BonusMulheres$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].text,
-                                        children: "Joquebede protegeu Moisés em tempos de perseguição, escondendo-o e confiando no plano do Senhor. Sua ação de fé salvou uma nação."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                        lineNumber: 53,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-                                lineNumber: 47,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2445,7 +2178,7 @@ function BonusMulheres() {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/BonusMulheres/BonusMulheres.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -2801,9 +2534,8 @@ function ConviteTransformacao() {
 "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "apply": "IndiceEnriquecido-module__bTPbgq__apply",
-  "block": "IndiceEnriquecido-module__bTPbgq__block",
   "butterfly": "IndiceEnriquecido-module__bTPbgq__butterfly",
+  "cardImg": "IndiceEnriquecido-module__bTPbgq__cardImg",
   "grid": "IndiceEnriquecido-module__bTPbgq__grid",
   "inner": "IndiceEnriquecido-module__bTPbgq__inner",
   "section": "IndiceEnriquecido-module__bTPbgq__section",
@@ -2819,7 +2551,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Butterfly$2f$Butterfly$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Butterfly/Butterfly.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css [app-rsc] (css module)");
+;
 ;
 ;
 ;
@@ -2832,7 +2566,7 @@ function IndiceEnriquecido() {
                 className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].butterfly} large rotate`
             }, void 0, false, {
                 fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2845,172 +2579,57 @@ function IndiceEnriquecido() {
                                 className: "small"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                lineNumber: 12,
+                                lineNumber: 13,
                                 columnNumber: 11
                             }, this),
                             "Bônus Exclusivos — Índice Enriquecido do Novo Testamento"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].grid,
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].block,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        children: "Capítulo 14 — As Sete Igrejas da Ásia (Ap 2–3)"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Éfeso: amor perdido"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 20,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Esmirna: sofrimento e fidelidade"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 21,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Pérgamo: compromisso com a verdade"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 22,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Tiatira: tolerância ao pecado"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 23,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].apply,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Aplicação:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 26,
-                                                columnNumber: 15
-                                            }, this),
-                                            " Examine-se: em qual igreja sua devoção se parece?"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 25,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus3-1.jpg",
+                                alt: "Índice Enriquecido 1",
+                                width: 350,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                lineNumber: 17,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].block,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        children: "Capítulo 6 — O Ministério de Jesus"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 32,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "6.1 Batismo e Tentação — vitória pela Palavra"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 34,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "6.2 Chamado dos Discípulos — homens simples, missão grande"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 35,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "6.3 Milagres e Ensinos — compaixão, autoridade"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                                lineNumber: 36,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 33,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/images/bonus3-2.jpg",
+                                alt: "Índice Enriquecido 2",
+                                width: 350,
+                                height: 500,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].cardImg
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$IndiceEnriquecido$2f$IndiceEnriquecido$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].block,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        children: "Capítulo 15 — O Trono e o Cordeiro"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 41,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Visão do céu; adoração contínua e a dignidade do Cordeiro que abre os selos."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                                lineNumber: 40,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/IndiceEnriquecido/IndiceEnriquecido.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }

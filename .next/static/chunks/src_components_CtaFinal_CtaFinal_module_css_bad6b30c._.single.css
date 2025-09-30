@@ -34,4 +34,26 @@
   box-shadow: 0 22px 46px rgba(255, 46, 122, .18);
 }
 
+.CtaFinal-module__ocsg4G__primaryButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .16);
+}
+
+.CtaFinal-module__ocsg4G__bonusBookShowcase {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+  display: flex;
+}
+
+.CtaFinal-module__ocsg4G__bookImageSmall {
+  border-radius: 16px;
+  width: 300px;
+  height: auto;
+  transition: transform .3s, box-shadow .3s;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .12);
+}
+
 /*# sourceMappingURL=src_components_CtaFinal_CtaFinal_module_css_bad6b30c._.single.css.map*/

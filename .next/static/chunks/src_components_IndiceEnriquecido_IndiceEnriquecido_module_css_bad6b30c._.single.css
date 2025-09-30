@@ -1,13 +1,6 @@
 /* [project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css [app-client] (css) */
-:root {
-  --pink: #e75480;
-  --pink-light: #ffe9f1;
-  --lilac: #f9f0fb;
-  --text: #463232;
-}
-
 .IndiceEnriquecido-module__bTPbgq__section {
-  background: linear-gradient(180deg, #fff, var(--pink-light));
+  background: linear-gradient(#fff, #ffe9f1);
   padding: 72px 20px;
   position: relative;
 }
@@ -15,10 +8,11 @@
 .IndiceEnriquecido-module__bTPbgq__inner {
   max-width: 1100px;
   margin: 0 auto;
+  position: relative;
 }
 
 .IndiceEnriquecido-module__bTPbgq__title {
-  color: var(--pink);
+  color: #e75480;
   font-family: var(--font-playfair, serif);
   text-align: center;
   letter-spacing: .5px;
@@ -37,38 +31,32 @@
   display: grid;
 }
 
-.IndiceEnriquecido-module__bTPbgq__block {
-  background: linear-gradient(160deg, #fff, var(--lilac));
-  border: 1px solid rgba(255, 192, 203, .25);
-  border-radius: 18px;
-  padding: 26px;
-  transition: transform .25s, box-shadow .25s;
-  box-shadow: 0 16px 40px rgba(231, 84, 128, .08);
+.IndiceEnriquecido-module__bTPbgq__cardImg {
+  background: #fa8cde;
+  border-radius: 20px;
+  padding: 16px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(231, 84, 128, .08), 0 6px 20px rgba(255, 182, 208, .2);
 }
 
-.IndiceEnriquecido-module__bTPbgq__block:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 22px 50px rgba(231, 84, 128, .12);
+.IndiceEnriquecido-module__bTPbgq__cardImg:before {
+  content: "";
+  opacity: .8;
+  background: linear-gradient(90deg, #ff9cc1, #e75480, #ff9cc1);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.IndiceEnriquecido-module__bTPbgq__block h3 {
-  color: var(--pink);
-  margin-bottom: 12px;
-  font-size: 1.2rem;
-}
-
-.IndiceEnriquecido-module__bTPbgq__block ul li {
-  color: var(--text);
-  margin-bottom: 6px;
-}
-
-.IndiceEnriquecido-module__bTPbgq__apply {
-  color: var(--text);
-  background: #fff7fa;
-  border-radius: 10px;
-  margin-top: 14px;
-  padding: 10px 14px;
-  font-style: italic;
+.IndiceEnriquecido-module__bTPbgq__cardImg:hover {
+  transform: translateY(-6px)scale(1.02);
+  box-shadow: 0 24px 50px rgba(231, 84, 128, .12), 0 10px 30px rgba(255, 182, 208, .25);
 }
 
 .IndiceEnriquecido-module__bTPbgq__butterfly {
@@ -77,9 +65,31 @@
   left: 24px;
 }
 
+.IndiceEnriquecido-module__bTPbgq__aboutDecorative {
+  pointer-events: none;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 90%;
+  right: 100%;
+}
+
+.IndiceEnriquecido-module__bTPbgq__overlayWrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.IndiceEnriquecido-module__bTPbgq__overlayImg {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 768px) {
   .IndiceEnriquecido-module__bTPbgq__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

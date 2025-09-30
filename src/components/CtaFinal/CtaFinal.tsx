@@ -1,5 +1,4 @@
 import Image from "next/image";
-import stylesb from "../Bonus/Bonus.module.css";
 import styles from "./CtaFinal.module.css";
 
 // Final CTA repeated to improve conversions
@@ -11,13 +10,13 @@ export default function CtaFinal() {
         <br />
         Não adie o que o Espírito Santo já está soprando em seu coração.
       </h2>
-      <div className={stylesb.bonusBookShowcase}>
+      <div className={styles.bonusBookShowcase}>
         <Image
           src="/images/book.png"
           alt="Visual do eBook"
           width={360}
           height={480}
-          className={stylesb.bookImageSmall}
+          className={styles.bookImageSmall}
         />
       </div>
       <a

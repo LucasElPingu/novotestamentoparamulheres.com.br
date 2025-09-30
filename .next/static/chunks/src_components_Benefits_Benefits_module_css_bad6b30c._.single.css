@@ -4,6 +4,10 @@
   --gray-soft: #555;
 }
 
+.Benefits-module__dqXh6a__altSection {
+  background-color: pink;
+}
+
 .Benefits-module__dqXh6a__sectionInner {
   flex-direction: column;
   align-items: center;

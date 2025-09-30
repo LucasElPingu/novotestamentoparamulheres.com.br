@@ -360,7 +360,7 @@
 
 /* [project]/src/components/Butterfly/Butterfly.module.css [app-client] (css) */
 .Butterfly-module__ro0gVG__butterfly {
-  filter: drop-shadow(0 6px 18px rgba(255, 46, 122, .12));
+  filter: drop-shadow(0 6px 16px rgba(255, 46, 122, .18));
   transition: transform .42s cubic-bezier(.2, .9, .3, 1);
   display: block;
 }
@@ -371,17 +371,36 @@
 }
 
 .medium {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
 }
 
 .large {
-  width: 96px;
-  height: 96px;
+  width: 100px;
+  height: 100px;
+}
+
+.Butterfly-module__ro0gVG__butterfly:hover {
+  transform: scale(1.08)rotate(-2deg);
 }
 
 .rotate {
   transform: rotate(-6deg);
+}
+
+.Butterfly-module__ro0gVG__cardImg {
+  background-image: linear-gradient(#fff, #fff), linear-gradient(135deg, #ff9cc1, #e75480);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: 4px solid rgba(0, 0, 0, 0);
+  border-radius: 18px;
+  transition: transform .25s, box-shadow .25s;
+  box-shadow: 0 16px 40px rgba(231, 84, 128, .08);
+}
+
+.Butterfly-module__ro0gVG__cardImg:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 50px rgba(231, 84, 128, .12);
 }
 
 /* [project]/src/components/Guarantee/Guarantee.module.css [app-client] (css) */
@@ -540,10 +559,6 @@
   max-width: 720px;
   margin: 0 auto 20px;
   font-size: 1.05rem;
-}
-
-.Hero-module__JgYmMq__heroActions {
-  margin-top: 8px;
 }
 
 .Hero-module__JgYmMq__primaryButton {
@@ -795,7 +810,7 @@
 
 .AboutDevocional-module__gaL-_q__section {
   background: var(--bg);
-  padding: 56px 16px;
+  padding: 6px;
   position: relative;
   overflow: visible;
 }
@@ -893,38 +908,36 @@
 }
 
 .AboutDevocional-module__gaL-_q__aboutDecorative {
-  margin: 0;
+  pointer-events: none;
+  z-index: 0;
+  width: 300px;
+  height: 300px;
   position: absolute;
+  bottom: 60%;
+  left: 94%;
 }
 
 .AboutDevocional-module__gaL-_q__overlayWrap {
-  pointer-events: none;
-  z-index: 1;
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  height: 100%;
   position: relative;
-  top: 16rem;
-  right: -1530px;
 }
 
 .AboutDevocional-module__gaL-_q__overlayImg {
   object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 /* [project]/src/components/Bonus365/Bonus365.module.css [app-client] (css) */
-:root {
-  --pink: #ff1a8c;
-  --pink-light: #fff0f5;
-}
-
 .Bonus365-module__DX6wMa__section {
-  background: #e9d5d8;
-  padding: 56px 16px;
+  background: #f7efe9;
+  margin-bottom: 4rem;
+  padding: 0 16px;
   position: relative;
 }
 
 .Bonus365-module__DX6wMa__container {
-  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
@@ -937,7 +950,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: -30px 0 40px;
+  margin: 0 0 40px;
   font-size: 1.9rem;
   text-decoration: underline;
   display: flex;
@@ -949,52 +962,32 @@
   display: grid;
 }
 
-.Bonus365-module__DX6wMa__card {
-  background: linear-gradient(180deg, var(--pink-light), #fff);
-  border: 10px solid #e08191;
-  border-radius: 16px;
-  padding: 20px;
-  transition: transform .22s;
-  box-shadow: 0 20px 60px rgba(12, 12, 12, .06);
+.Bonus365-module__DX6wMa__cardImg {
+  background: #fa8cde;
+  border-radius: 20px;
+  padding: 16px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(231, 84, 128, .08), 0 6px 20px rgba(255, 182, 208, .2);
 }
 
-.Bonus365-module__DX6wMa__card:hover {
-  transform: translateY(-6px);
-}
-
-.Bonus365-module__DX6wMa__cardHeader {
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-  display: flex;
-}
-
-.Bonus365-module__DX6wMa__cardTitle {
-  color: #5a2b2b;
-  margin: 0 0 8px;
-  text-decoration: underline;
-}
-
-.Bonus365-module__DX6wMa__cardText {
-  color: #800040;
-  margin: 0 0 10px;
-  line-height: 1.6;
-}
-
-.Bonus365-module__DX6wMa__prayer {
-  color: #800040;
-  background: #fff4db;
-  border-radius: 10px;
-  margin: 0;
-  padding: 10px;
-  font-size: .95rem;
-}
-
-.Bonus365-module__DX6wMa__butterfly {
-  opacity: .95;
+.Bonus365-module__DX6wMa__cardImg:before {
+  content: "";
+  opacity: .8;
+  background: linear-gradient(90deg, #ff9cc1, #e75480, #ff9cc1);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
   position: absolute;
-  top: -18px;
-  left: 18px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Bonus365-module__DX6wMa__cardImg:hover {
+  transform: translateY(-6px)scale(1.02);
+  box-shadow: 0 24px 50px rgba(231, 84, 128, .12), 0 10px 30px rgba(255, 182, 208, .25);
 }
 
 @media (min-width: 768px) {
@@ -1003,35 +996,9 @@
   }
 }
 
-.Bonus365-module__DX6wMa__bonusDecorative {
-  position: absolute;
-}
-
-.Bonus365-module__DX6wMa__overlayWrap {
-  pointer-events: none;
-  z-index: 0;
-  width: 360px;
-  height: 360px;
-  position: relative;
-  top: 10px;
-  left: -40px;
-}
-
-.Bonus365-module__DX6wMa__overlayImg {
-  object-fit: contain;
-}
-
 /* [project]/src/components/BonusMulheres/BonusMulheres.module.css [app-client] (css) */
-:root {
-  --pink: #ff1a8c;
-  --beige: #f7efe9;
-  --brown-dark: #4a2b2b;
-  --brown: #6b4f3f;
-  --text: #4a3a3a;
-}
-
 .BonusMulheres-module__5Bdukq__section {
-  background: var(--beige);
+  background: #e9d5d8;
   padding: 64px 20px;
   position: relative;
 }
@@ -1042,7 +1009,7 @@
 }
 
 .BonusMulheres-module__5Bdukq__title {
-  color: var(--brown-dark);
+  color: #4a2b2b;
   font-family: var(--font-playfair, serif);
   text-align: center;
   justify-content: center;
@@ -1060,50 +1027,32 @@
   display: grid;
 }
 
-.BonusMulheres-module__5Bdukq__card {
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, .05);
-  border-radius: 18px;
-  padding: 24px;
-  transition: transform .2s, box-shadow .2s;
-  box-shadow: 0 20px 54px rgba(0, 0, 0, .06);
+.BonusMulheres-module__5Bdukq__cardImg {
+  background: #fa8cde;
+  border-radius: 20px;
+  padding: 16px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(231, 84, 128, .08), 0 6px 20px rgba(255, 182, 208, .2);
 }
 
-.BonusMulheres-module__5Bdukq__card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 24px 64px rgba(0, 0, 0, .08);
+.BonusMulheres-module__5Bdukq__cardImg:before {
+  content: "";
+  opacity: .8;
+  background: linear-gradient(90deg, #ff9cc1, #e75480, #ff9cc1);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.BonusMulheres-module__5Bdukq__cardTitle {
-  color: var(--pink);
-  margin: 0 0 8px;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.BonusMulheres-module__5Bdukq__tag {
-  color: var(--brown);
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.BonusMulheres-module__5Bdukq__subtitle {
-  color: var(--brown-dark);
-  margin: 12px 0 8px;
-  font-weight: 600;
-}
-
-.BonusMulheres-module__5Bdukq__text {
-  color: var(--text);
-  line-height: 1.5;
-}
-
-.BonusMulheres-module__5Bdukq__prayer {
-  background: #fff4db;
-  border-radius: 12px;
-  margin-top: 12px;
-  padding: 12px;
-  font-style: italic;
+.BonusMulheres-module__5Bdukq__cardImg:hover {
+  transform: translateY(-6px)scale(1.02);
+  box-shadow: 0 24px 50px rgba(231, 84, 128, .12), 0 10px 30px rgba(255, 182, 208, .25);
 }
 
 .BonusMulheres-module__5Bdukq__butterfly {
@@ -1115,7 +1064,7 @@
 
 @media (min-width: 768px) {
   .BonusMulheres-module__5Bdukq__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1325,15 +1274,8 @@
 }
 
 /* [project]/src/components/IndiceEnriquecido/IndiceEnriquecido.module.css [app-client] (css) */
-:root {
-  --pink: #e75480;
-  --pink-light: #ffe9f1;
-  --lilac: #f9f0fb;
-  --text: #463232;
-}
-
 .IndiceEnriquecido-module__bTPbgq__section {
-  background: linear-gradient(180deg, #fff, var(--pink-light));
+  background: linear-gradient(#fff, #ffe9f1);
   padding: 72px 20px;
   position: relative;
 }
@@ -1344,7 +1286,7 @@
 }
 
 .IndiceEnriquecido-module__bTPbgq__title {
-  color: var(--pink);
+  color: #e75480;
   font-family: var(--font-playfair, serif);
   text-align: center;
   letter-spacing: .5px;
@@ -1363,38 +1305,32 @@
   display: grid;
 }
 
-.IndiceEnriquecido-module__bTPbgq__block {
-  background: linear-gradient(160deg, #fff, var(--lilac));
-  border: 1px solid rgba(255, 192, 203, .25);
-  border-radius: 18px;
-  padding: 26px;
-  transition: transform .25s, box-shadow .25s;
-  box-shadow: 0 16px 40px rgba(231, 84, 128, .08);
+.IndiceEnriquecido-module__bTPbgq__cardImg {
+  background: #fa8cde;
+  border-radius: 20px;
+  padding: 16px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(231, 84, 128, .08), 0 6px 20px rgba(255, 182, 208, .2);
 }
 
-.IndiceEnriquecido-module__bTPbgq__block:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 22px 50px rgba(231, 84, 128, .12);
+.IndiceEnriquecido-module__bTPbgq__cardImg:before {
+  content: "";
+  opacity: .8;
+  background: linear-gradient(90deg, #ff9cc1, #e75480, #ff9cc1);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.IndiceEnriquecido-module__bTPbgq__block h3 {
-  color: var(--pink);
-  margin-bottom: 12px;
-  font-size: 1.2rem;
-}
-
-.IndiceEnriquecido-module__bTPbgq__block ul li {
-  color: var(--text);
-  margin-bottom: 6px;
-}
-
-.IndiceEnriquecido-module__bTPbgq__apply {
-  color: var(--text);
-  background: #fff7fa;
-  border-radius: 10px;
-  margin-top: 14px;
-  padding: 10px 14px;
-  font-style: italic;
+.IndiceEnriquecido-module__bTPbgq__cardImg:hover {
+  transform: translateY(-6px)scale(1.02);
+  box-shadow: 0 24px 50px rgba(231, 84, 128, .12), 0 10px 30px rgba(255, 182, 208, .25);
 }
 
 .IndiceEnriquecido-module__bTPbgq__butterfly {
@@ -1405,7 +1341,7 @@
 
 @media (min-width: 768px) {
   .IndiceEnriquecido-module__bTPbgq__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

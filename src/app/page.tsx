@@ -15,7 +15,6 @@ import Bonus365 from "@/components/Bonus365/Bonus365";
 import BonusMulheres from "@/components/BonusMulheres/BonusMulheres";
 import ConviteTransformacao from "@/components/ConviteTransformacao/ConviteTransformacao";
 import IndiceEnriquecido from "@/components/IndiceEnriquecido/IndiceEnriquecido";
-import IntroducaoNT from "@/components/IntroducaoNT/IntroducaoNT";
 
 // Main page: composes sections. Each image (or grouped set) is now its own component/section.
 export default function Page() {
@@ -28,7 +27,6 @@ export default function Page() {
       <Bonus365 />
       <BonusMulheres />
       <IndiceEnriquecido />
-      <IntroducaoNT />
       <ConviteTransformacao />
 
       <About />

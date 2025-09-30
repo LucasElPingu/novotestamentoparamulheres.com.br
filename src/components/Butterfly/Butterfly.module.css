@@ -1,6 +1,44 @@
-.butterfly{display:block;filter:drop-shadow(0 6px 18px rgba(255,46,122,0.12));transition:transform 420ms cubic-bezier(.2,.9,.3,1)}
-/* Utility modifiers (applied by parent via className) */
-:global(.small){width:36px;height:36px}
-:global(.medium){width:56px;height:56px}
-:global(.large){width:96px;height:96px}
-:global(.rotate){-webkit-transform:rotate(-6deg);transform:rotate(-6deg)}
+.butterfly {
+  display: block;
+  filter: drop-shadow(0 6px 16px rgba(255, 46, 122, 0.18));
+  transition: transform 420ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+/* Tamanhos */
+:global(.small) {
+  width: 36px;
+  height: 36px;
+}
+:global(.medium) {
+  width: 64px;
+  height: 64px;
+}
+:global(.large) {
+  width: 100px;
+  height: 100px;
+}
+
+/* Animação de leve batimento */
+.butterfly:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+:global(.rotate) {
+  transform: rotate(-6deg);
+}
+
+.cardImg {
+  border-radius: 18px;
+  /* Borda elegante com gradiente */
+  border: 4px solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(#fff, #fff), 
+                    linear-gradient(135deg, #ff9cc1, #e75480);
+  box-shadow: 0 16px 40px rgba(231, 84, 128, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cardImg:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 50px rgba(231, 84, 128, 0.12);
+}

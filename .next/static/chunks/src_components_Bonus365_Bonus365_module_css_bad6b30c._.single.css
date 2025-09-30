@@ -1,17 +1,23 @@
 /* [project]/src/components/Bonus365/Bonus365.module.css [app-client] (css) */
-:root {
-  --pink: #ff1a8c;
-  --pink-light: #fff0f5;
+.Bonus365-module__DX6wMa__section {
+  background: #f7efe9;
+  margin-bottom: 4rem;
+  padding: 0 16px;
+  position: relative;
 }
 
-.Bonus365-module__DX6wMa__section {
-  background: #e9d5d8;
-  padding: 56px 16px;
+.Bonus365-module__DX6wMa__inner {
+  z-index: 1;
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
   position: relative;
 }
 
 .Bonus365-module__DX6wMa__container {
-  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
@@ -24,7 +30,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: -30px 0 40px;
+  margin: 0 0 40px;
   font-size: 1.9rem;
   text-decoration: underline;
   display: flex;
@@ -36,76 +42,38 @@
   display: grid;
 }
 
-.Bonus365-module__DX6wMa__card {
-  background: linear-gradient(180deg, var(--pink-light), #fff);
-  border: 10px solid #e08191;
-  border-radius: 16px;
-  padding: 20px;
-  transition: transform .22s;
-  box-shadow: 0 20px 60px rgba(12, 12, 12, .06);
+.Bonus365-module__DX6wMa__cardImg {
+  background: #fa8cde;
+  border-radius: 20px;
+  padding: 16px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(231, 84, 128, .08), 0 6px 20px rgba(255, 182, 208, .2);
 }
 
-.Bonus365-module__DX6wMa__card:hover {
-  transform: translateY(-6px);
-}
-
-.Bonus365-module__DX6wMa__cardHeader {
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-  display: flex;
-}
-
-.Bonus365-module__DX6wMa__cardTitle {
-  color: #5a2b2b;
-  margin: 0 0 8px;
-  text-decoration: underline;
-}
-
-.Bonus365-module__DX6wMa__cardText {
-  color: #800040;
-  margin: 0 0 10px;
-  line-height: 1.6;
-}
-
-.Bonus365-module__DX6wMa__prayer {
-  color: #800040;
-  background: #fff4db;
-  border-radius: 10px;
-  margin: 0;
-  padding: 10px;
-  font-size: .95rem;
-}
-
-.Bonus365-module__DX6wMa__butterfly {
-  opacity: .95;
+.Bonus365-module__DX6wMa__cardImg:before {
+  content: "";
+  opacity: .8;
+  background: linear-gradient(90deg, #ff9cc1, #e75480, #ff9cc1);
+  border-radius: 2px;
+  width: 60px;
+  height: 4px;
   position: absolute;
-  top: -18px;
-  left: 18px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Bonus365-module__DX6wMa__cardImg:hover {
+  transform: translateY(-6px)scale(1.02);
+  box-shadow: 0 24px 50px rgba(231, 84, 128, .12), 0 10px 30px rgba(255, 182, 208, .25);
 }
 
 @media (min-width: 768px) {
   .Bonus365-module__DX6wMa__grid {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.Bonus365-module__DX6wMa__bonusDecorative {
-  position: absolute;
-}
-
-.Bonus365-module__DX6wMa__overlayWrap {
-  pointer-events: none;
-  z-index: 0;
-  width: 360px;
-  height: 360px;
-  position: relative;
-  top: 10px;
-  left: -40px;
-}
-
-.Bonus365-module__DX6wMa__overlayImg {
-  object-fit: contain;
 }
 
 /*# sourceMappingURL=src_components_Bonus365_Bonus365_module_css_bad6b30c._.single.css.map*/

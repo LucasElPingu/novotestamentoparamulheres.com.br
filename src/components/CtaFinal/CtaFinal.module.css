@@ -34,3 +34,25 @@
   font-weight: 900;
   box-shadow: 0 22px 46px rgba(255, 46, 122, 0.18);
 }
+
+.primaryButton:hover {
+  transform: scale(1.05);    /* leve aumento ao passar o mouse */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.16);
+}
+
+.bonusBookShowcase {
+  display: flex;            /* coloca a imagem e outros elementos lado a lado se houver */
+  justify-content: center;  /* centraliza horizontalmente */
+  align-items: center;      /* centraliza verticalmente */
+  gap: 24px;                /* espaçamento entre a imagem e o preço ou botão */
+  margin-top: 32px;         /* espaço acima da seção */
+  flex-wrap: wrap;           /* permite quebra em telas menores */
+}
+
+.bookImageSmall {
+  width: 300px;              /* tamanho fixo da imagem, ajustável */
+  height: auto;              /* mantém proporção */
+  border-radius: 16px;       /* cantos arredondados */
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12); /* sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

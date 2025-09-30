@@ -42,10 +42,6 @@
   font-size: 1.05rem;
 }
 
-.Hero-module__JgYmMq__heroActions {
-  margin-top: 8px;
-}
-
 .Hero-module__JgYmMq__primaryButton {
   background: linear-gradient(90deg, #ff6fbf 0%, var(--pink) 60%);
   color: #fff;
