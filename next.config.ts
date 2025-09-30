@@ -1,10 +1,13 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+// DEPOIS (Next.js 13+)
+const nextConfig = {
   images: {
-    domains: ["cdn.builder.io"],
-    // allow remote images to be optimized by next/image
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "exemplo.com",
+      },
+    ],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

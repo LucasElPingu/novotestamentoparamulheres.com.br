@@ -47,7 +47,6 @@ export default function ConviteTransformacao() {
             height={350}
             className={styles.bookImageSmall}
           />
-         
         </div>
       </div>
     </section>

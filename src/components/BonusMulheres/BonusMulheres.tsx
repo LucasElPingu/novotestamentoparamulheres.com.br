@@ -6,21 +6,19 @@ import styles from "./BonusMulheres.module.css";
 export default function BonusMulheres() {
   return (
     <section id="bonus-mulheres" className={styles.section}>
-      
-
       <div className={styles.inner}>
         <Butterfly className={`${styles.butterfly} medium rotate`} />
-      <div className={styles.aboutDecorative} aria-hidden>
-        <div className={styles.overlayWrap}>
-          <Image
-            src="/images/fly1.png"
-            alt=""
-            width={300}
-            height={300}
-            className={styles.overlayImg}
-          />
+        <div className={styles.aboutDecorative} aria-hidden>
+          <div className={styles.overlayWrap}>
+            <Image
+              src="/images/fly1.png"
+              alt=""
+              width={300}
+              height={300}
+              className={styles.overlayImg}
+            />
+          </div>
         </div>
-      </div>
 
         <h2 className={styles.title}>
           <Butterfly className="small" />

@@ -124,12 +124,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 63,
+            lineNumber: 72,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 61,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }

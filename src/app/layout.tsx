@@ -38,7 +38,12 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Devocional NT para Mulheres",
     images: [
-      { url: "/share.png", width: 1200, height: 630, alt: "Devocional do Novo Testamento para Mulheres" },
+      {
+        url: "/share.png",
+        width: 1200,
+        height: 630,
+        alt: "Devocional do Novo Testamento para Mulheres",
+      },
     ],
     locale: "pt_BR",
     type: "website",
@@ -56,11 +61,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="pt-BR">
       {/* Body receives the CSS variable classes for fonts */}
-      <body className={`${inter.variable} ${playfair.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${playfair.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

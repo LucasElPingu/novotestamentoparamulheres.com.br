@@ -6,22 +6,20 @@ import styles from "./IndiceEnriquecido.module.css";
 export default function IndiceEnriquecido() {
   return (
     <section id="indice" className={styles.section}>
-      
-
       <div className={styles.inner}>
         <Butterfly className={`${styles.butterfly} large rotate`} />
-             {/* Fly1 decorativo flutuante */}
-      <div className={styles.aboutDecorative} aria-hidden>
-        <div className={styles.overlayWrap}>
-          <Image
-            src="/images/fly4.png"
-            alt=""
-            width={300}
-            height={300}
-            className={styles.overlayImg}
-          />
+        {/* Fly1 decorativo flutuante */}
+        <div className={styles.aboutDecorative} aria-hidden>
+          <div className={styles.overlayWrap}>
+            <Image
+              src="/images/fly4.png"
+              alt=""
+              width={300}
+              height={300}
+              className={styles.overlayImg}
+            />
+          </div>
         </div>
-      </div>
         <h2 className={styles.title}>
           <Butterfly className="small" />
           Bônus Exclusivos — Índice Enriquecido do Novo Testamento

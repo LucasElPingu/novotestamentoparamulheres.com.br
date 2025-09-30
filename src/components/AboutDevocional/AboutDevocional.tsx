@@ -7,21 +7,20 @@ export default function AboutDevocional() {
   return (
     <section id="sobre" className={styles.section}>
       {/* Borboleta decorativa */}
-      
+
       <div className={styles.inner}>
-        
         {/* Fly1 decorativo flutuante */}
-      <div className={styles.aboutDecorative} aria-hidden>
-        <div className={styles.overlayWrap}>
-          <Image
-            src="/images/fly6.png"
-            alt=""
-            width={300}
-            height={300}
-            className={styles.overlayImg}
-          />
+        <div className={styles.aboutDecorative} aria-hidden>
+          <div className={styles.overlayWrap}>
+            <Image
+              src="/images/fly6.png"
+              alt=""
+              width={300}
+              height={300}
+              className={styles.overlayImg}
+            />
+          </div>
         </div>
-      </div>
 
         <div className={styles.left}>
           <h2 className={styles.title}>
@@ -35,7 +34,8 @@ export default function AboutDevocional() {
               Uma explicação clara e acessível de cada parte do Novo Testamento.
             </li>
             <li>
-              Conexões históricas, culturais e espirituais que tornam a leitura viva.
+              Conexões históricas, culturais e espirituais que tornam a leitura
+              viva.
             </li>
             <li>Aplicações práticas para a vida da mulher cristã hoje.</li>
             <li>
@@ -44,7 +44,8 @@ export default function AboutDevocional() {
           </ul>
           <p className={styles.lead}>
             Este não é apenas um estudo bíblico. É o encontro diário com Jesus
-            através da Palavra, explicado de forma humana, profunda e envolvente.
+            através da Palavra, explicado de forma humana, profunda e
+            envolvente.
           </p>
         </div>
 
