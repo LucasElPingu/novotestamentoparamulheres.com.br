@@ -27,15 +27,6 @@ export default function Header() {
             Comprar
           </a>
         </nav>
-
-        <a
-          href="https://chk.eduzz.com/69KA2GO70O"
-          className={styles.headerCta}
-          rel="nofollow noopener"
-          target="_blank"
-        >
-          Quero meu Devocional
-        </a>
       </div>
     </header>
   );
