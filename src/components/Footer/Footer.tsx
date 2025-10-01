@@ -31,7 +31,7 @@ export default function Footer() {
         Política de privacidade: seus dados não serão compartilhados.
       </div>
       <div id="contato" className={styles.footerNote}>
-        Contato: suporte@novotestamentoparamulheres.com.br
+        Contato: liviaandrademkt@gmail.com
       </div>
       <div id="direitos" className={styles.footerNote}>
         Conteúdo protegido por direitos autorais.

@@ -88,3 +88,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 768px) {
+  .bonusCard {
+    padding-top: 60px; /* mais espaço só no mobile */
+  }
+}
