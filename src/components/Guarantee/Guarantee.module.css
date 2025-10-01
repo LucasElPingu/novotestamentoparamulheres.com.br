@@ -3,7 +3,8 @@
   --pink-light: #ffd6ea;
   --gray-soft: #555;
 }
-.altSection {}
+.altSection {
+}
 .sectionInner {
   max-width: 1100px;
   margin: 0 auto;
@@ -13,9 +14,20 @@
   gap: 18px;
   align-items: center;
 }
-.garantiaInner { align-items: center; text-align: center; }
-.sectionTitle { font-family: var(--font-playfair), serif; color: var(--pink); font-size: 1.6rem; margin: 0; }
-.sectionIntro { color: var(--gray-soft); max-width: 820px; }
+.garantiaInner {
+  align-items: center;
+  text-align: center;
+}
+.sectionTitle {
+  font-family: var(--font-playfair), serif;
+  color: var(--pink);
+  font-size: 1.6rem;
+  margin: 0;
+}
+.sectionIntro {
+  color: var(--gray-soft);
+  max-width: 820px;
+}
 .primaryButton {
   display: inline-flex;
   align-items: center;

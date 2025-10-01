@@ -19,7 +19,9 @@
   align-items: start;
 }
 
-.content { background: transparent; }
+.content {
+  background: transparent;
+}
 
 .title {
   color: var(--pink);
@@ -40,9 +42,18 @@
   line-height: 1.6;
 }
 
-.conclusion { margin-top: 20px; color: #4a3a3a; font-weight: 600; font-size: 1.1rem; }
+.conclusion {
+  margin-top: 20px;
+  color: #4a3a3a;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
 
-.butterfly { position: absolute; top: -10px; left: 18px; }
+.butterfly {
+  position: absolute;
+  top: -10px;
+  left: 18px;
+}
 
 .bookImageSmall {
   width: 100%;
@@ -53,9 +64,16 @@
   transition: transform 0.25s ease;
 }
 
-.bookImageSmall:hover { transform: scale(1.05); }
+.bookImageSmall:hover {
+  transform: scale(1.05);
+}
 
 @media (min-width: 768px) {
-  .inner { grid-template-columns: 1fr 360px; }
-  .bookPricing { flex-direction: column; align-items: flex-start; }
+  .inner {
+    grid-template-columns: 1fr 360px;
+  }
+  .bookPricing {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

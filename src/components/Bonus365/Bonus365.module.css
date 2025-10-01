@@ -17,7 +17,11 @@
   z-index: 1;
 }
 
-.container { max-width: 1100px; margin: 0 auto; position: relative; }
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
 
 .title {
   font-family: var(--font-playfair, serif);
@@ -32,7 +36,11 @@
   text-decoration: underline;
 }
 
-.grid { display: grid; grid-template-columns: 1fr; gap: 22px; }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+}
 
 .cardImg {
   border-radius: 20px;
@@ -65,9 +73,15 @@
     0 10px 30px rgba(255, 182, 208, 0.25);
 }
 
-@media (min-width: 768px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* Decorative elements control */
 @media (max-width: 767px) {
-  .aboutDecorative { display: none; }
+  .aboutDecorative {
+    display: none;
+  }
 }

@@ -27,9 +27,24 @@
   padding: 14px 20px;
 }
 
-.primaryNav { display: none; gap: 18px; }
-.navLink { color: var(--gray-soft); text-decoration: none; font-weight: 700; }
-.navLink:hover { color: var(--pink); }
-.navBuy { color: var(--pink); }
+.primaryNav {
+  display: none;
+  gap: 18px;
+}
+.navLink {
+  color: var(--gray-soft);
+  text-decoration: none;
+  font-weight: 700;
+}
+.navLink:hover {
+  color: var(--pink);
+}
+.navBuy {
+  color: var(--pink);
+}
 
-@media (min-width: 768px) { .primaryNav { display: flex; } }
+@media (min-width: 768px) {
+  .primaryNav {
+    display: flex;
+  }
+}

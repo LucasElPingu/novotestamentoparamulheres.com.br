@@ -22,7 +22,8 @@
   z-index: 1;
 }
 
-.left {}
+.left {
+}
 
 .title {
   color: var(--pink);
@@ -34,11 +35,19 @@
   gap: 10px;
 }
 
-.titleIcon { display: inline-flex; }
+.titleIcon {
+  display: inline-flex;
+}
 
-.bullets { margin: 0 0 18px 20px; color: #333; line-height: 1.6; }
+.bullets {
+  margin: 0 0 18px 20px;
+  color: #333;
+  line-height: 1.6;
+}
 
-.lead { color: #5a2b2b; }
+.lead {
+  color: #5a2b2b;
+}
 
 .right {
   background: var(--pink-light);
@@ -63,7 +72,11 @@
   gap: 5px;
 }
 
-.ctaWrap { display: flex; justify-content: center; margin-top: 14px; }
+.ctaWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
 
 .cta {
   background: linear-gradient(90deg, #ff8cc4 0%, var(--pink) 70%);
@@ -76,12 +89,23 @@
   transition: transform 180ms ease;
 }
 
-.cta:hover { transform: translateY(-4px); }
+.cta:hover {
+  transform: translateY(-4px);
+}
 
 /* borboleta decorativa */
-.butterfly { position: absolute; top: -12px; right: 18px; opacity: 0.98; }
+.butterfly {
+  position: absolute;
+  top: -12px;
+  right: 18px;
+  opacity: 0.98;
+}
 
-@media (min-width: 768px) { .inner { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 /* Fly1 flutuante */
 .aboutDecorative {
@@ -94,9 +118,19 @@
   z-index: 0;
 }
 
-.overlayWrap { position: relative; width: 100%; height: 100%; }
-.overlayImg { width: 100%; height: 100%; object-fit: contain; }
+.overlayWrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.overlayImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
 @media (max-width: 767px) {
-  .aboutDecorative { display: none; }
+  .aboutDecorative {
+    display: none;
+  }
 }

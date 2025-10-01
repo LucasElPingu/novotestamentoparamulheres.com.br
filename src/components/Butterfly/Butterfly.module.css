@@ -5,13 +5,26 @@
 }
 
 /* Tamanhos */
-:global(.small) { width: 36px; height: 36px; }
-:global(.medium) { width: 64px; height: 64px; }
-:global(.large) { width: 100px; height: 100px; }
+:global(.small) {
+  width: 36px;
+  height: 36px;
+}
+:global(.medium) {
+  width: 64px;
+  height: 64px;
+}
+:global(.large) {
+  width: 100px;
+  height: 100px;
+}
 
 /* Animação de leve batimento */
-.butterfly:hover { transform: scale(1.08) rotate(-2deg); }
-:global(.rotate) { transform: rotate(-6deg); }
+.butterfly:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+:global(.rotate) {
+  transform: rotate(-6deg);
+}
 
 .cardImg {
   border-radius: 18px;
@@ -24,4 +37,7 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.cardImg:hover { transform: translateY(-6px); box-shadow: 0 22px 50px rgba(231, 84, 128, 0.12); }
+.cardImg:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 50px rgba(231, 84, 128, 0.12);
+}
