@@ -2,9 +2,7 @@
   --pink: #ff1a8c;
   --gray-soft: #555;
 }
-.altSection {
-  background-color: pink;
-}
+.altSection { background-color: pink; }
 .sectionInner {
   max-width: 1100px;
   margin: 0 auto;
@@ -21,14 +19,5 @@
   margin: 0 0 6px 0;
   text-align: center;
 }
-.checkList {
-  display: grid;
-  gap: 10px;
-  color: var(--gray-soft);
-  max-width: 980px;
-}
-.check {
-  color: var(--pink);
-  font-weight: 900;
-  margin-right: 8px;
-}
+.checkList { display: grid; gap: 10px; color: var(--gray-soft); max-width: 980px; }
+.check { color: var(--pink); font-weight: 900; margin-right: 8px; }

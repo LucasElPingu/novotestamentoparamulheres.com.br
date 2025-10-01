@@ -2,13 +2,10 @@
   background: linear-gradient(180deg, #fff, #ffe9f1);
   padding: 72px 20px;
   position: relative;
+  overflow: hidden;
 }
 
-.inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  position: relative;
-}
+.inner { max-width: 1100px; margin: 0 auto; position: relative; }
 
 .title {
   color: #e75480;
@@ -24,15 +21,11 @@
   letter-spacing: 0.5px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 28px;
-}
+.grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
 
 .cardImg {
   border-radius: 20px;
-  background: #fa8cde; /* base clara */
+  background: #ffe6fa; /* base clara */
   padding: 16px;
   position: relative;
   overflow: hidden;
@@ -61,11 +54,7 @@
     0 10px 30px rgba(255, 182, 208, 0.25);
 }
 
-.butterfly {
-  position: absolute;
-  top: -20px;
-  left: 24px;
-}
+.butterfly { position: absolute; top: -20px; left: 24px; }
 
 /* Fly1 flutuante */
 .aboutDecorative {
@@ -78,20 +67,8 @@
   z-index: 0;
 }
 
-.overlayWrap {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+.overlayWrap { position: relative; width: 100%; height: 100%; }
+.overlayImg { width: 100%; height: 100%; object-fit: contain; }
 
-.overlayImg {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+@media (min-width: 768px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px) { .aboutDecorative { display: none; } }

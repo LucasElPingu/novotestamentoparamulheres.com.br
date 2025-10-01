@@ -1,8 +1,14 @@
 :root {
   --background: #fffaf8;
   --foreground: #171717;
-  background-color: pink;
+  background-color: var(--beige);
 }
+
+/* Global resets to avoid horizontal scroll and oversized media */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; }
+img, picture, video, canvas, svg { max-width: 100%; height: auto; display: block; }
+main, header, section, footer { width: 100%; max-width: 100vw; }
 
 body {
   background: var(--background);
@@ -30,17 +36,16 @@ h3 {
     "Times New Roman", serif;
 }
 
+/* Ensure custom image classes never overflow */
+[class*="bookImage"],
+[class*="Image"],
+.bookImageSmall { max-width: 100%; height: auto; }
+
 /* Smooth page load animation */
 @media (prefers-reduced-motion: no-preference) {
   @keyframes appFadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
-  body {
-    animation: appFadeIn 420ms ease-out both;
-  }
+  body { animation: appFadeIn 420ms ease-out both; }
 }

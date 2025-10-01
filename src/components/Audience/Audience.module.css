@@ -2,8 +2,7 @@
   --pink: #ff1a8c;
   --gray-soft: #555;
 }
-.altSection {
-}
+.altSection {}
 .sectionInner {
   max-width: 1100px;
   margin: 0 auto;
@@ -26,8 +25,4 @@
   color: var(--gray-soft);
   max-width: 820px;
 }
-.check {
-  color: var(--pink);
-  font-weight: 900;
-  margin-right: 8px;
-}
+.check { color: var(--pink); font-weight: 900; margin-right: 8px; }
